@@ -7,6 +7,7 @@ config();
 
 const bot = new Telegraf(process.env.BOT_TOKEN)
 bot.start((ctx) => {
+    
     return ctx.reply('Ну что, начнем?',
         Markup.keyboard([
             [Markup.button.pollRequest('🙋‍♀️ Создать опросник', 'regular'),
@@ -24,7 +25,7 @@ bot.help(ctx => ctx.reply(`Попробуйте команды:
 
 bot.on('sticker', ctx => ctx.reply('🥰'))
 
-bot.hears('hi', ctx => ctx.reply(`Hi??? И это все, ${ctx.chat.first_name}, что ты можешь сказать?`))
+bot.hears('hi', ctx => ctx.reply(`What??? И это все, ${ctx.chat.first_name}, что ты можешь сказать?`))
 
 bot.command('poll', ctx => ctx.replyWithPoll('Твой любимый язык программирования?', [
     'JavaScript', 'Python', 'C++', 'Lua', 'Pascal', 'Что такое "язык программирования'], { is_anonymous: false }))
