@@ -6,10 +6,10 @@ config();
 
 // Конфигурация
 const CONFIG = {
-  token: "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI5ZDg1MWJiZC05YzljLTQ4NTctYjI0OC0xNDBkNTYzMmFmODQiLCJleHAiOjE3NjA1NjIxOTcsImlhdCI6MTc2MDU2MTcxNywiZXNrIjoiZGIzYzJjZjUtMmUwZi00M2E2LThhMzMtY2RhNTgzOTFkOGI3IiwiZXNhaWQiOiI3NDk3NTYxODg1IiwiZWlkIjoiMTA4NzM3OTg4MyJ9.85T1f9w0biuK9XDT60y7bYMPNxmmAr7NlI0hCzE2sUw",
+  token: "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI5ZDg1MWJiZC05YzljLTQ4NTctYjI0OC0xNDBkNTYzMmFmODQiLCJleHAiOjE3NjA0Nzc1MjMsImlhdCI6MTc2MDQ3NzA0MywiZXNrIjoiZGIzYzJjZjUtMmUwZi00M2E2LThhMzMtY2RhNTgzOTFkOGI3IiwiZXNhaWQiOiI3NDk3NTYxODg1IiwiZWlkIjoiMTA4NzM3OTg4MyJ9.-gQqjpUWVQ8pRR5JgiXNoXMoXPugchU2ianIKqa4Zv4",
   ssoKey: "db3c2cf5-2e0f-43a6-8a33-cda58391d8b7",
   checkInterval: 300000, // 5 минут
-  adminId: process.env.ADMIN_ID || 389456284, // ID админа из переменных окружения
+  adminId: parseInt(process.env.ADMIN_ID) || 389456284, // Явное преобразование в число
   children: {
     "Varvara": { id: 614996, emoji: "👧" },
     "Ivan": { id: 647827, emoji: "👦" },
@@ -21,6 +21,10 @@ const CONFIG = {
 let globalMonitoringActive = false;
 let lastCheckedGrades = new Map();
 let authError = false;
+
+console.log('🔧 Конфигурация загружена:');
+console.log('👑 ADMIN_ID:', CONFIG.adminId);
+console.log('📝 Тип ADMIN_ID:', typeof CONFIG.adminId);
 
 // Настройка axios с улучшенной обработкой ошибок
 const createApiClient = () => {
@@ -46,7 +50,10 @@ const createApiClient = () => {
 
 // Проверка является ли пользователь админом
 const isAdmin = (userId) => {
-  return userId === CONFIG.adminId;
+  console.log(`🔍 Проверка прав: пользователь ${userId} (тип: ${typeof userId}), админ: ${CONFIG.adminId} (тип: ${typeof CONFIG.adminId})`);
+  const result = userId === CONFIG.adminId;
+  console.log(`✅ Результат проверки: ${result}`);
+  return result;
 };
 
 // Функция для форматирования даты в красивый вид
@@ -170,8 +177,7 @@ async function checkForNewGrades(bot) {
         
         if (newGrades.length > 0) {
           const message = formatGradesMessage(childName, newGrades);
-          // Отправляем всем пользователям, кто запустил бота
-          // В реальном боте здесь нужно хранить список чатов/пользователей
+          // Отправляем админу уведомления о новых оценках
           await bot.telegram.sendMessage(CONFIG.adminId, message);
           console.log(`📨 Новые оценки для ${childName}: ${newGrades.length} шт.`);
           anyNewGrades = true;
@@ -183,11 +189,9 @@ async function checkForNewGrades(bot) {
         if (error.message === 'AUTH_ERROR') {
           console.error(`Ошибка авторизации для ${childName}`);
           // Уведомляем админа об ошибке авторизации
-          if (isAdmin(CONFIG.adminId)) {
-            await bot.telegram.sendMessage(CONFIG.adminId, 
-              '🔐 Ошибка авторизации! Токен устарел. Необходимо обновить токен в настройках бота.'
-            );
-          }
+          await bot.telegram.sendMessage(CONFIG.adminId, 
+            '🔐 Ошибка авторизации! Токен устарел. Необходимо обновить токен в настройках бота.'
+          );
         } else {
           console.error(`Ошибка для ${childName}:`, error.message);
         }
@@ -246,7 +250,8 @@ async function getManualGrades(childId, childName) {
     });
     
     return message.trim();
-    } catch (error) {
+    
+  } catch (error) {
     if (error.message === 'AUTH_ERROR') {
       return `🔐 Извините, мониторинг оценок пока невозможен. Ошибка авторизации.`;
     }
@@ -256,17 +261,22 @@ async function getManualGrades(childId, childName) {
 
 // Создание клавиатуры в зависимости от роли пользователя
 function getKeyboardForUser(userId) {
+  console.log(`⌨️ Создание клавиатуры для пользователя ${userId}`);
+  
   const baseButtons = [
     ['👧 Проверить Варю', '👦 Проверить Ваню', '👶 Проверить Борю']
   ];
   
   // Только админ видит кнопку управления мониторингом
   if (isAdmin(userId)) {
+    console.log('👑 Пользователь является админом, добавляем кнопки управления');
     if (globalMonitoringActive) {
       baseButtons.unshift(['🛑 Остановить мониторинг']);
     } else {
       baseButtons.unshift(['🎯 Запустить мониторинг']);
     }
+  } else {
+    console.log('👤 Пользователь не админ, показываем только базовые кнопки');
   }
   
   return Markup.keyboard(baseButtons).resize();
@@ -278,6 +288,7 @@ const bot = new Telegraf(process.env.BOT_TOKEN);
 // Команда /start - информация о статусе мониторинга
 bot.start(async (ctx) => {
   const userId = ctx.from.id;
+  console.log(`🚀 Команда /start от пользователя ${userId}`);
   
   let statusMessage = '';
   if (authError) {
@@ -288,18 +299,27 @@ bot.start(async (ctx) => {
     statusMessage = '⏸ *Мониторинг оценок остановлен.*\nИспользуйте ручную проверку оценок.';
   }
   
+  const keyboard = getKeyboardForUser(userId);
+  console.log('📋 Отправляемая клавиатура:', keyboard.reply_markup.keyboard);
+  
   await ctx.reply(
-    `🎓 *Бот для отслеживания оценок детей*\n\n${statusMessage}\n\n +
-    *Доступные действия:*\n +
-    • Проверить оценки вручную\n +
-    • Получать уведомления о новых оценках\n\n +
-    *Дети:*\n +
-    👧 Варя | 👦 Ваня | 👶 Боря`,
+    `🎓 *Бот для отслеживания оценок детей*\n\n${statusMessage}\n\n` +
+    `*Доступные действия:*\n` +
+    `• Проверить оценки вручную\n` +
+    `• Получать уведомления о новых оценках\n\n` +
+    `*Дети:*\n` +
+    `👧 Варя | 👦 Ваня | 👶 Боря`,
     {
       parse_mode: 'Markdown',
-      ...getKeyboardForUser(userId)
+      ...keyboard
     }
   );
+});
+
+// Команда для отладки - покажет ID пользователя
+bot.command('myid', async (ctx) => {
+  const userId = ctx.from.id;
+  await ctx.reply(`🆔 Ваш ID: ${userId}\n👑 ID админа: ${CONFIG.adminId}\n\nИспользуйте этот ID в переменной ADMIN_ID`);
 });
 
 // Ручная проверка конкретного ребенка
@@ -324,7 +344,10 @@ bot.hears(/Проверить (Варю|Ваню|Борю)/, async (ctx) => {
 
 // Запуск мониторинга (только для админа)
 bot.hears('🎯 Запустить мониторинг', async (ctx) => {
-  if (!isAdmin(ctx.from.id)) {
+  const userId = ctx.from.id;
+  console.log(`🎯 Попытка запуска мониторинга пользователем ${userId}`);
+  
+  if (!isAdmin(userId)) {
     await ctx.reply('⛔ У вас нет прав для управления мониторингом.');
     return;
   }
@@ -342,7 +365,7 @@ bot.hears('🎯 Запустить мониторинг', async (ctx) => {
     '⏰ Проверка каждые 5 минут\n' +
     '📅 Слежу за оценками за последние 2 дня\n\n' +
     '⏳ Инициализация...',
-    getKeyboardForUser(ctx.from.id)
+    getKeyboardForUser(userId)
   );
   
   // Инициализация базы оценок
@@ -361,9 +384,9 @@ bot.hears('🎯 Запустить мониторинг', async (ctx) => {
       }
       
       await ctx.reply(
-        `✅ Глобальный мониторинг активен!\n +
-        📊 Загружено ${initializedCount} оценок для отслеживания\n +
-        🔍 Теперь буду присылать уведомления о НОВЫХ оценках`
+        `✅ Глобальный мониторинг активен!\n` +
+        `📊 Загружено ${initializedCount} оценок для отслеживания\n` +
+        `🔍 Теперь буду присылать уведомления о НОВЫХ оценках`
       );
       
       // Запускаем регулярную проверку
@@ -379,34 +402,23 @@ bot.hears('🎯 Запустить мониторинг', async (ctx) => {
 
 // Остановка мониторинга (только для админа)
 bot.hears('🛑 Остановить мониторинг', async (ctx) => {
-  if (!isAdmin(ctx.from.id)) {
+  const userId = ctx.from.id;
+  console.log(`🛑 Попытка остановки мониторинга пользователем ${userId}`);
+  
+  if (!isAdmin(userId)) {
     await ctx.reply('⛔ У вас нет прав для управления мониторингом.');
     return;
   }
+  
   globalMonitoringActive = false;
   
   await ctx.reply(
     '🛑 Глобальный мониторинг оценок остановлен!\n' +
     'Все пользователи перестанут получать уведомления о новых оценках.',
-    getKeyboardForUser(ctx.from.id)
+    getKeyboardForUser(userId)
   );
   
   console.log('🛑 Админ остановил глобальный мониторинг');
-});
-
-// Команда для принудительной остановки (только для админа)
-bot.command('stop', async (ctx) => {
-  if (!isAdmin(ctx.from.id)) {
-    await ctx.reply('⛔ У вас нет прав для этой команды.');
-    return;
-  }
-  
-  globalMonitoringActive = false;
-  
-  await ctx.reply(
-    '🛑 Глобальный мониторинг оценок остановлен!',
-    getKeyboardForUser(ctx.from.id)
-  );
 });
 
 // Базовые команды
@@ -414,6 +426,7 @@ bot.help(ctx => ctx.reply(`
 📚 *Команды бота:*
 
 /start - показать статус мониторинга
+/myid - показать ваш ID (для настройки)
 /help - показать справку
 
 *Для всех пользователей:*
@@ -452,6 +465,7 @@ bot.launch().then(() => {
     console.log(`   ${data.emoji} ${name} (ID: ${data.id})`);
   });
   console.log(`👑 Админ бота: ${CONFIG.adminId}`);
+  console.log('🔧 Для отладки используйте команду /myid');
 });
 
 // Graceful shutdown
