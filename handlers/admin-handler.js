@@ -1,10 +1,9 @@
 import { Markup } from 'telegraf';
 import { CONFIG, globalMonitoringActive, setMonitoringState } from '../config/index.js';
 import { getKeyboardForUser, isAdmin } from '../utils/helpers.js';
-import { checkForNewGrades, initializeMonitoring } from '../services/monitoring-service.js';
+import { checkForNewGrades, initializeMonitoring, sendSystemMessageToAll } from '../services/monitoring-service.js';
 
 export const adminHandler = (bot) => {
-  // Запуск мониторинга (только для админа)
   bot.hears('🎯 Запустить мониторинг', async (ctx) => {
     const userId = ctx.from.id;
     
@@ -33,9 +32,9 @@ export const adminHandler = (bot) => {
         const initializedCount = await initializeMonitoring(bot);
         
         await ctx.reply(
-          `✅ Глобальный мониторинг активен!\n +
-          📊 Загружено ${initializedCount} оценок для отслеживания\n +
-          🔍 Теперь буду присылать уведомления о НОВЫХ оценках`
+          `✅ Глобальный мониторинг активен!\n` +
+          `📊 Загружено ${initializedCount} оценок для отслеживания\n` +
+          `🔍 Теперь все пользователи будут получать уведомления о НОВЫХ оценках`
         );
         
         checkForNewGrades(bot);
@@ -46,7 +45,6 @@ export const adminHandler = (bot) => {
     }, 2000);
   });
 
-  // Остановка мониторинга (только для админа)
   bot.hears('🛑 Остановить мониторинг', async (ctx) => {
     const userId = ctx.from.id;
     
@@ -57,6 +55,8 @@ export const adminHandler = (bot) => {
     
     setMonitoringState(false);
     
+    await sendSystemMessageToAll(bot, 'Мониторинг оценок остановлен. Вы больше не будете получать уведомления о новых оценках.');
+    
     await ctx.reply(
       '🛑 Глобальный мониторинг оценок остановлен!\n' +
       'Все пользователи перестанут получать уведомления о новых оценках.',
@@ -64,7 +64,6 @@ export const adminHandler = (bot) => {
     );
   });
 
-  // Команда для принудительной остановки (только для админа)
   bot.command('stop', async (ctx) => {
     if (!isAdmin(ctx.from.id)) {
       await ctx.reply('⛔ У вас нет прав для этой команды.');
@@ -72,6 +71,9 @@ export const adminHandler = (bot) => {
     }
     
     setMonitoringState(false);
+    
+    await sendSystemMessageToAll(bot, 'Мониторинг оценок остановлен администратором.');
+    
     await ctx.reply('🛑 Глобальный мониторинг оценок остановлен!');
   });
 };

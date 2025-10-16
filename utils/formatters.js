@@ -1,7 +1,6 @@
 import { CONFIG } from '../config/index.js';
 import { getGradeEmoji } from './helpers.js';
 
-// Форматирование даты в красивый вид
 export const formatDate = (dateString) => {
   const date = new Date(dateString.split('.').reverse().join('-'));
   const today = new Date();
@@ -21,14 +20,12 @@ export const formatDate = (dateString) => {
   }
 };
 
-// Форматирование одной оценки для вывода
 export const formatGrade = (grade) => {
   const emoji = getGradeEmoji(grade.estimate_value_name);
   const date = formatDate(grade.date);
   return `${grade.subject_name} - ${grade.estimate_value_name} ${emoji} (${date})`;
 };
 
-// Форматирование сообщения с оценками
 export const formatGradesMessage = (childName, grades) => {
   if (grades.length === 0) {
     return `📝 У ${childName} ${CONFIG.children[childName].emoji} нет новых оценок`;
@@ -40,7 +37,6 @@ export const formatGradesMessage = (childName, grades) => {
   return header + gradesList;
 };
 
-// Форматирование для ручной проверки
 export const formatManualGrades = (childName, grades) => {
   if (grades.length === 0) {
     return `📝 У ${childName} ${CONFIG.children[childName].emoji} нет оценок за последние 2 дня`;

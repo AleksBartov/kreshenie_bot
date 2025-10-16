@@ -1,11 +1,10 @@
+
 import { CONFIG } from '../config/index.js';
 
-// Проверка является ли пользователь админом
 export const isAdmin = (userId) => {
   return userId === CONFIG.adminId;
 };
 
-// Получение смайлика для оценки
 export const getGradeEmoji = (grade) => {
   const gradeValue = parseInt(grade);
   if (isNaN(gradeValue)) {
@@ -23,7 +22,6 @@ export const getGradeEmoji = (grade) => {
   return '💀';
 };
 
-// Создание клавиатуры в зависимости от роли пользователя
 export const getKeyboardForUser = (userId, monitoringActive) => {
   const baseButtons = [
     ['👧 Проверить Варю', '👦 Проверить Ваню', '👶 Проверить Борю']
@@ -40,7 +38,6 @@ export const getKeyboardForUser = (userId, monitoringActive) => {
   return baseButtons;
 };
 
-// Сравнение оценок и поиск новых
 export const findNewGrades = (oldGrades, newGrades) => {
   if (!oldGrades || oldGrades.length === 0) return [];
   

@@ -1,7 +1,6 @@
 import axios from 'axios';
 import { CONFIG, setMonitoringState } from '../config/index.js';
 
-// Создание API клиента
 const createApiClient = () => {
   const cookies = {
     'sso-key': CONFIG.ssoKey,
@@ -23,7 +22,6 @@ const createApiClient = () => {
   });
 };
 
-// Получение оценок за последние 2 дня
 export const getRecentGrades = async (childId) => {
   try {
     const api = createApiClient();
@@ -57,6 +55,9 @@ export const getRecentGrades = async (childId) => {
     if (error.response?.status === 401) {
       setMonitoringState(false, true);
       throw new Error('AUTH_ERROR');
+    } else if (error.response?.status === 500) {
+      console.error('❌ Ошибка сервера 500:', error.message);
+      throw new Error('SERVER_ERROR');
     }
     console.error('Ошибка при получении оценок:', error.message);
     throw error;
