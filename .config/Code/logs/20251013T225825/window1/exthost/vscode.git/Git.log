@@ -1,0 +1,58 @@
+2025-10-13 22:59:05.333 [info] [main] Log level: Info
+2025-10-13 22:59:05.339 [info] [main] Validating found git in: "git"
+2025-10-13 22:59:05.339 [info] [main] Using git "2.43.0" from "git"
+2025-10-13 22:59:05.339 [info] [Model][doInitialScan] Initial repository scan started
+2025-10-13 22:59:05.339 [info] [Model][doInitialScan] Initial repository scan completed - repositories (0), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-10-13 22:59:58.625 [info] [main] Log level: Info
+2025-10-13 22:59:58.625 [info] [main] Validating found git in: "git"
+2025-10-13 22:59:58.625 [info] [main] Using git "2.43.0" from "git"
+2025-10-13 22:59:58.625 [info] [Model][doInitialScan] Initial repository scan started
+2025-10-13 22:59:58.625 [info] > git rev-parse --show-toplevel [19ms]
+2025-10-13 22:59:58.649 [info] [Model][doInitialScan] Initial repository scan completed - repositories (0), closed repositories (0), parent repositories (1), unsafe repositories (0)
+2025-10-13 23:00:11.611 [info] > git rev-parse --show-toplevel [347ms]
+2025-10-13 23:00:13.224 [info] > git rev-parse --show-toplevel [111ms]
+2025-10-13 23:00:15.168 [info] > git rev-parse --show-toplevel [243ms]
+2025-10-13 23:00:16.588 [info] > git rev-parse --show-toplevel [136ms]
+2025-10-13 23:00:22.230 [info] > git rev-parse --show-toplevel [4ms]
+2025-10-13 23:00:22.600 [info] > git rev-parse --git-dir --git-common-dir --show-superproject-working-tree [298ms]
+2025-10-13 23:00:22.694 [info] [Model][openRepository] Opened repository (path): /home/aleksandr
+2025-10-13 23:00:22.694 [info] [Model][openRepository] Opened repository (real path): /home/aleksandr
+2025-10-13 23:00:22.694 [info] [Model][openRepository] Opened repository (kind): repository
+2025-10-13 23:00:23.244 [info] > git config --get commit.template [378ms]
+2025-10-13 23:00:23.268 [info] > git rev-parse --show-toplevel [93ms]
+2025-10-13 23:00:23.749 [info] > git rev-parse --show-toplevel [161ms]
+2025-10-13 23:00:23.750 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [205ms]
+2025-10-13 23:00:23.750 [warning] [Git][getBranch] No such branch: main
+2025-10-13 23:00:23.993 [info] > git check-ignore -v -z --stdin [77ms]
+2025-10-13 23:00:24.007 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [153ms]
+2025-10-13 23:00:24.017 [info] > git rev-parse --show-toplevel [36ms]
+2025-10-13 23:00:24.075 [info] > git rev-parse --show-toplevel [15ms]
+2025-10-13 23:00:24.145 [info] > git rev-parse --show-toplevel [17ms]
+2025-10-13 23:00:24.277 [info] > git rev-parse --show-toplevel [34ms]
+2025-10-13 23:00:24.359 [info] > git rev-parse --show-toplevel [12ms]
+2025-10-13 23:00:24.479 [info] > git rev-parse --show-toplevel [27ms]
+2025-10-13 23:00:24.642 [info] > git rev-parse --show-toplevel [29ms]
+2025-10-13 23:00:24.764 [info] > git rev-parse --show-toplevel [10ms]
+2025-10-13 23:00:26.324 [info] > git status -z -uall [2544ms] (cancelled)
+2025-10-13 23:00:33.334 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [7081ms]
+2025-10-13 23:00:33.335 [warning] [Git][getBranch] No such branch: main
+2025-10-13 23:00:33.340 [error] [GitHistoryProvider][resolveHEADMergeBase] Failed to resolve merge base for main: Error: No such branch: main.
+2025-10-13 23:00:33.374 [info] > git config --get commit.template [42ms]
+2025-10-13 23:00:33.418 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [7ms]
+2025-10-13 23:00:33.419 [warning] [Git][getBranch] No such branch: main
+2025-10-13 23:00:33.506 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [10ms]
+2025-10-13 23:00:40.655 [info] > git status -z -uall [7213ms] (cancelled)
+2025-10-13 23:00:42.628 [info] > git check-ignore -v -z --stdin [1211ms]
+2025-10-13 23:00:45.371 [info] > git show --textconv :school_bot/index.js [126ms]
+2025-10-13 23:00:45.525 [info] > git hash-object -t tree /dev/null [39ms]
+2025-10-13 23:00:45.525 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/aleksandr/school_bot/index.js.git?%7B%22path%22%3A%22%2Fhome%2Faleksandr%2Fschool_bot%2Findex.js%22%2C%22ref%22%3A%22%22%7D
+2025-10-13 23:00:45.560 [info] > git ls-files --stage -- school_bot/index.js [204ms]
+2025-10-13 23:00:45.566 [warning] [GitFileSystemProvider][stat] File not found - git:/home/aleksandr/school_bot/index.js.git?%7B%22path%22%3A%22%2Fhome%2Faleksandr%2Fschool_bot%2Findex.js%22%2C%22ref%22%3A%22%22%7D
+2025-10-13 23:06:40.365 [info] > git show --textconv :school_bot/package.json [68ms]
+2025-10-13 23:06:40.368 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/aleksandr/school_bot/package.json.git?%7B%22path%22%3A%22%2Fhome%2Faleksandr%2Fschool_bot%2Fpackage.json%22%2C%22ref%22%3A%22%22%7D
+2025-10-13 23:06:40.370 [info] > git ls-files --stage -- school_bot/package.json [22ms]
+2025-10-13 23:06:40.372 [warning] [GitFileSystemProvider][stat] File not found - git:/home/aleksandr/school_bot/package.json.git?%7B%22path%22%3A%22%2Fhome%2Faleksandr%2Fschool_bot%2Fpackage.json%22%2C%22ref%22%3A%22%22%7D
+2025-10-13 23:06:46.126 [info] > git show --textconv :school_bot/index.js [44ms]
+2025-10-13 23:06:46.134 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/aleksandr/school_bot/index.js.git?%7B%22path%22%3A%22%2Fhome%2Faleksandr%2Fschool_bot%2Findex.js%22%2C%22ref%22%3A%22%22%7D
+2025-10-13 23:06:46.155 [info] > git ls-files --stage -- school_bot/index.js [34ms]
+2025-10-13 23:06:46.161 [warning] [GitFileSystemProvider][stat] File not found - git:/home/aleksandr/school_bot/index.js.git?%7B%22path%22%3A%22%2Fhome%2Faleksandr%2Fschool_bot%2Findex.js%22%2C%22ref%22%3A%22%22%7D

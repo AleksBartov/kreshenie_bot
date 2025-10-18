@@ -1,0 +1,3 @@
+2025-10-18 23:31:09.406 [info] Log level: Info
+2025-10-18 23:31:29.746 [info] Log level: Info
+2025-10-19 00:55:50.615 [warning] [GitHubSourceControlHistoryItemDetailsProvider][_getCommitAuthor] Failed to get commit author for AleksBartov/kreshenie_bot/1c8659b4245ac7633bff238fbcd209769893739b: TypeError: Cannot read properties of null (reading 'author')

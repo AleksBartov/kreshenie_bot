@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="msvalidate.01" content="3667D2FEB238C1BF174F3CB1AE0D3C16" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="/assets/application-26374809fb0047e178aaa7b6b68e04723f1cda86ef19d7a11d8ebc951431f3ff.css" media="all" data-turbolinks-track="true" />
+  <title>Repositories that depend on telegraf on npm - Libraries.io - security & maintenance data for open source software</title>
+  <meta name="description" content="Discover open source packages, modules and frameworks you can use in your code.">
+  <meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="dDOAoC1tpbHYMiPLIGabbaa1ZcH6ySwIRa6uGUeDuVoRjLpPzY_6LBtYfa0dEqxvimMU3Lhl5_3shVZL2X7DWQ" />
+  
+  <link rel="apple-touch-icon-precomposed" sizes="57x57" href="https://libraries.io/assets/apple-touch-icon-57x57-d2ce1ae09b96b2dcd4548cdab571b2f0f04567fd52bb42acdc158f3e499fb9f2.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="https://libraries.io/assets/apple-touch-icon-114x114-0b33f62bf1188d522e2a3af36c193aaeabef9f6dbd01fd3321a3aac20270c3f7.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="https://libraries.io/assets/apple-touch-icon-72x72-0d786ee6083b71a6af882b9ae456f6ef055ac33bfaf3c8ae55eac5d38491d742.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://libraries.io/assets/apple-touch-icon-144x144-e44e66335b196ade90f421758d5d66c4ba3903d891e28431288bae4a76543f91.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="60x60" href="https://libraries.io/assets/apple-touch-icon-60x60-bdf27a1057418054b28c679717d461ed052fdfa7cc1930e65200562e9c535d77.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="120x120" href="https://libraries.io/assets/apple-touch-icon-120x120-fd2ca061f478b697773e9d1d0144fe1ddf5c5fee5be46c07541271da4bee10fe.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="76x76" href="https://libraries.io/assets/apple-touch-icon-76x76-788ab56a7ab652c168cad5fef06ec3fec102768f08cd691a4b51e66e474e8538.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="152x152" href="https://libraries.io/assets/apple-touch-icon-152x152-be5ef5b4a68d187f60df08e2415e0ec8553225e5c3be3a7f044279b8a44f8d33.png" />
+  <meta name="application-name" content="&nbsp;"/>
+  <meta name="msapplication-TileColor" content="#FFFFFF" />
+  <meta name="msapplication-TileImage" content="https://libraries.io/assets/mstile-144x144-e44e66335b196ade90f421758d5d66c4ba3903d891e28431288bae4a76543f91.png" />
+  <meta name="msapplication-square70x70logo" content="https://libraries.io/assets/mstile-70x70-9d4251daf8e8befa87287d559f146b72bf061e2a6778f1c337b6f59d6ecdc1b6.png" />
+  <meta name="msapplication-square150x150logo" content="https://libraries.io/assets/mstile-150x150-2cdc9f4fbbe7573c60d1175e2d56e034e47cb34c53c3dbbae4986e72747f82fb.png" />
+  <meta name="msapplication-wide310x150logo" content="https://libraries.io/assets/mstile-310x150-52c90e484d1ec5b2d51fb246d837d844b85486a5ac718393e9c09b6555ab373c.png" />
+  <meta name="msapplication-square310x310logo" content="https://libraries.io/assets/mstile-310x310-3547800cb3aa250b9dcfa0d95ffa675c73580ece85c09edaca209657ad281a34.png" />
+  <meta property="fb:admins" content="508462908" />
+  <meta name="yandex-verification" content="2a6b144b8bd37026" />
+  <meta property="og:type" content="article" />
+<meta property="og:site_name" content="Libraries.io" />
+<meta property="og:url" content="https://libraries.io" />
+<meta property="og:title" content="Libraries.io - security &amp; maintenance data for open source software" />
+<meta property="og:description" content="Discover open source libraries, modules and frameworks you can use in your code" />
+<meta property="og:image"  content="https://libraries.io/apple-touch-icon-152x152.png" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:site" content="@librariesio" />
+<meta name="twitter:title" content="Libraries.io - security &amp; maintenance data for open source software" />
+<meta name="twitter:description" content="Discover open source libraries, modules and frameworks you can use in your code" />
+<meta name="twitter:image" content="https://libraries.io/apple-touch-icon-152x152.png" />
+
+  <link href="/opensearch.xml" title="Libraries.io" rel="search" type="application/opensearchdescription+xml">
+    <script type="text/javascript">
+      const amplitudeEnabledForRequest = false
+      const amplitudeApiKey = ""
+        const currentUserId = null
+        const currentUserEmail = null
+    </script>
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+        ga('create', 'UA-105624087-2', 'auto');
+    </script>
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-P7XSSNL');</script>
+  <script src="/assets/application-1d8dea1ec31c995c6479cf68737480a4cc63385054dd33a256ac03ba0dd61e01.js" data-turbolinks-track="true"></script>
+  <script type="application/ld+json">
+    {
+      "@context": "http://schema.org",
+      "@type": "WebSite",
+      "name": "Libraries.io",
+      "url": "https://libraries.io/",
+      "description": "Discover open source packages, modules and frameworks you can use in your code",
+      "license": "https://github.com/librariesio/libraries.io/blob/main/LICENSE.txt",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://libraries.io/search?q={search_term_string}",
+        "query-input": "required name=search_term_string"
+      }
+    }
+  </script>
+  <script type="application/ld+json">
+    {
+      "@context": "http://schema.org",
+      "@type": "Organization",
+      "name": "Libraries.io",
+      "description": "Discover open source packages, modules and frameworks you can use in your code",
+      "url": "https://libraries.io/",
+      "logo": "https://libraries.io/assets/apple-touch-icon-152x152-be5ef5b4a68d187f60df08e2415e0ec8553225e5c3be3a7f044279b8a44f8d33.png",
+      "email": "support@libraries.io",
+      "sameAs": [
+        "https://twitter.com/librariesio",
+        "https://www.facebook.com/libraries.io",
+        "https://github.com/librariesio",
+        "https://plus.google.com/101868076054784591044"
+      ]
+    }
+  </script>
+</head>
+<body>
+  
+
+
+
+  <div
+    class="flash-banner text-center hidden-xs"
+    role="alert"
+  >
+    <strong>
+  <a href="https://blog.tidelift.com/tidelift-joins-sonar?utm_source=libraries&utm_medium=referral"
+    style="text-decoration:underline;color: white;">Big news!</a>
+    Sonar has entered a definitive agreement to acquire Tidelift!
+</strong>
+
+  </div>
+
+  <div class="navbar navbar-inverse navbar-static-top">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-main">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="/"><img width="180" height="45" src="/assets/logo-af5ba93db6b301878669fc49b0e125a507bc38f0f57c18ebbe67861109fcc194.svg" /></a>
+      </div>
+      <div class="navbar-collapse collapse" id="navbar-main">
+          <ul class="nav navbar-nav navbar-left">
+            <li class=' '>
+              <form class="navbar-form search_form" action="/search" accept-charset="UTF-8" method="get">
+  <div class="input-group input-group">
+    <input type="text" name="q" id="q" value="" placeholder="Search Packages" class="form-control search-input" size="40" />
+      
+      
+      
+      
+      
+
+    <span class="input-group-btn">
+      <button class="btn btn-primary" type="submit">
+        <i class="fa fa-search"></i>
+      </button>
+    </span>
+
+  </div>
+</form>
+            </li>
+          </ul>
+        <ul class="nav navbar-nav navbar-right">
+            <li>
+              <div class="navbar-btn btn-group">
+                <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Login <span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a href="/login?host_type=github&amp;return_to=https%3A%2F%2Flibraries.io%2Fnpm%2Ftelegraf%2Fdependent_repositories">
+                      <i class="fa fa-github"></i> GitHub
+</a>                  </li>
+                  <li>
+                    <a href="/login?host_type=gitlab&amp;return_to=https%3A%2F%2Flibraries.io%2Fnpm%2Ftelegraf%2Fdependent_repositories">
+                      <i class="fa fa-gitlab"></i> GitLab
+</a>                  </li>
+                  <li>
+                    <a href="/login?host_type=bitbucket&amp;return_to=https%3A%2F%2Flibraries.io%2Fnpm%2Ftelegraf%2Fdependent_repositories">
+                      <i class="fa fa-bitbucket"></i> Bitbucket
+</a>                  </li>
+                  <li class='divider'></li>
+                  <li class="dropdown-header terms">
+                    By logging in you accept <br>our <a href='/terms'>terms of service</a> <br>and <a href='/privacy'>privacy policy</a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <h1>
+  <div class="pictogram pictogram-npm"></div>
+  <a href="/npm/telegraf">telegraf</a>
+</h1>
+<hr>
+  <p class="lead"><strong>255</strong> repositories depend on <a href="/npm/telegraf">telegraf</a>:</p>
+
+<div class="row">
+  <div class="col-sm-8">
+      <div class='project' style="border-color: #f1e05a;">
+  <h5>
+    <a href="/github/alvaroveliz/aSimpleTour">alvaroveliz/aSimpleTour</a>
+    <small>
+      
+      
+    </small>
+  </h5>
+
+  <div>
+    Alvaro&#39;s Simple Tour
+  </div>
+
+  <small>
+    <i class="fa fa-github"></i>
+        <a href="/languages/JavaScript">JavaScript</a> -
+        <a href="/licenses/MIT">MIT</a> -
+        Last pushed <time datetime="2018-07-20T07:58:44Z" title="Jul 20, 2018">Jul 20, 2018</time>
+      - 116 stars
+        - 62 forks
+  </small>
+</div>
+
+      
+  </div>
+  <div class="col-sm-4">
+
+  </div>
+</div>
+
+  </div>
+  <footer data-ga-tracked-el='footer'>
+  <div class="container">
+    <div class='row'>
+      <div class="col-xs-12 col-sm-6 col-md-4">
+          <p>
+            <a href="/">Libraries.io</a> helps you find new open source packages, modules and frameworks and keep track of ones you depend upon.
+          </p>
+          <p>
+            <a href="https://github.com/librariesio" title='GitHub'><i class="fa fa-github"></i></a>&nbsp;
+            <a href="mailto:support@libraries.io" title='Email'><i class="fa fa-envelope"></i></a>&nbsp;
+          </p>
+          <hr>
+          <p class='text-muted'>
+            <a href="https://sonarsource.com"><img width="180" height="45" src="/assets/logo-af5ba93db6b301878669fc49b0e125a507bc38f0f57c18ebbe67861109fcc194.svg" /></a><br>
+            Copyright Â© 2025 SourceSource SA<br>
+            Code is Open Source under <a href="https://github.com/librariesio/libraries.io/blob/main/LICENSE.txt">AGPLv3</a> license<br>
+            Data is available under <a href="https://libraries.io/data">CC-BY-SA 4.0</a> license
+          </p>
+      </div>
+      <div class="col-xs-12 col-md-2">
+        <strong><a href="/explore">Explore</a></strong>
+        <ul>
+          <li><a href="/platforms">Platforms</a></li>
+          <li><a href="/languages">Languages</a></li>
+          <li><a href="/licenses">Licenses</a></li>
+        </ul>
+      </div>
+      <div class="col-xs-12 col-md-2">
+        <ul class='list-unstyled'>
+          <li><strong><a href="/terms">Terms and Conditions</a></strong></li>
+          <li><strong><a href="/privacy">Privacy Policy</a></strong></li>
+          <li><strong><a href="/api">API</a></strong></li>
+        </ul>
+      </div>
+      <div class="col-xs-12 col-md-2">
+        <strong>Sonar Products</strong>
+        <ul class='list-unstyled'>
+          <li><strong><a href='https://www.sonarsource.com/products/sonarlint/' target='_blank'>SonarQube for IDE</a></strong></li>
+          <li><strong><a href='https://www.sonarsource.com/products/sonarqube/' target='_blank'>SonarQube Server</a></strong></li>
+          <li><strong><a href='https://www.sonarsource.com/products/sonarcloud/' target='_blank'>SonarQube Cloud</a></strong></li>
+          <li><strong><a href='https://www.sonarsource.com/products/sonarqube/advanced-security/' target='_blank'>SonarQube Advanced Security</a></strong></li>
+          <li><strong><a href='https://www.sonarsource.com/plans-and-pricing/' target='_blank'>Pricing</a></strong></li>
+        </ul>
+      </div>
+      <div class="col-xs-12 col-md-2">
+        <strong>Sonar Resources</strong>
+        <ul class='list-unstyled'>
+          <li><strong><a href='https://www.sonarsource.com/company/about/' target='_blank'>About</a></strong></li>
+          <li><strong><a href='https://www.sonarsource.com/blog/' target='_blank'>Blog</a></strong></li>
+          <li><strong><a href='https://www.sonarsource.com/product-demos/' target='_blank'>Product demos</a></strong></li>
+          <li><strong><a href='https://www.sonarsource.com/resources/events/' target='_blank'>Events hub</a></strong></li>
+          <li><strong><a href='https://www.sonarsource.com/resources/customer-stories/' target='_blank'>Customer stories</a></strong></li>
+          <li><strong><a href='https://www.sonarsource.com/learn/' target='_blank'>Learn</a></strong></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+  <script>
+    if (typeof ga === 'function') { ga('send', 'pageview', location.pathname+location.search) }
+  </script>
+</body>
+</html>
+* cp‹      hñf1hñf:H½¬ûhñf8   c    O^partitionKey=%28https%2Clibraries.io%29,:https://libraries.io/npm/telegraf/dependent_repositories necko:classified 1 peer-ip-address 35.244.128.241 peer-port 443 strongly-framed 1 security-info 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 request-method GET response-head HTTP/2 200 
+x-frame-options: SAMEORIGIN
+x-xss-protection: 1; mode=block
+x-content-type-options: nosniff
+x-download-options: noopen
+x-permitted-cross-domain-policies: none
+referrer-policy: strict-origin-when-cross-origin
+link: </assets/application-26374809fb0047e178aaa7b6b68e04723f1cda86ef19d7a11d8ebc951431f3ff.css>; rel=preload; as=style; nopush,</assets/application-1d8dea1ec31c995c6479cf68737480a4cc63385054dd33a256ac03ba0dd61e01.js>; rel=preload; as=script; nopush
+content-type: text/html; charset=utf-8
+etag: W/"c6321c5a3f2fb7c896d2ce0f19b2da90"
+cache-control: max-age=0, private, must-revalidate
+x-request-id: 4e86885b-a40d-4fee-b0ee-9684c52170b0
+x-runtime: 1.859080
+strict-transport-security: max-age=63072000; includeSubDomains
+content-length: 14395
+date: Thu, 16 Oct 2025 21:40:08 GMT
+via: 1.1 google
+alt-svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+X-Firefox-Spdy: h2
+ original-response-headers x-frame-options: SAMEORIGIN
+x-xss-protection: 1; mode=block
+x-content-type-options: nosniff
+x-download-options: noopen
+x-permitted-cross-domain-policies: none
+referrer-policy: strict-origin-when-cross-origin
+link: </assets/application-26374809fb0047e178aaa7b6b68e04723f1cda86ef19d7a11d8ebc951431f3ff.css>; rel=preload; as=style; nopush,</assets/application-1d8dea1ec31c995c6479cf68737480a4cc63385054dd33a256ac03ba0dd61e01.js>; rel=preload; as=script; nopush
+content-type: text/html; charset=utf-8
+etag: W/"c6321c5a3f2fb7c896d2ce0f19b2da90"
+cache-control: max-age=0, private, must-revalidate
+set-cookie: _libraries_session=UEzGDuJIP8%2F%2BE%2Bv9BNB7eUz1bdcUDsx9t45UKYHnnrClimBzCrGdHVhqSfM2mQwq1e8WbI%2BkvQBgHA4elN7nCEWiwfl7Q0q7HKpBAa%2BYOy2UCWvh7sHzMGn2d6ua3nXGr1oq1IV3djAgk%2FLaoB0xRcyZeen3dG96Pcew5qaOlAps15XStw%2BMF%2FOS6PP7oz%2FORb6D5Bg77tiW5cqe9ztTddo%2FADBpa89QFGT3DF1FRz6tlWL9dipoCC7AAyqTGkqud9mABmGP7tIq8BQtXRJ04MwqB6wtvyGZJkx%2B%2FReY6sDdItZz27BHutpAa1GN0SPN--vHv9AzqrFTi24Ild--mXU4q4TQaze%2B4suVIoQicQ%3D%3D; path=/; expires=Sun, 16 Nov 2025 21:40:08 GMT; secure; HttpOnly; SameSite=Lax
+x-request-id: 4e86885b-a40d-4fee-b0ee-9684c52170b0
+x-runtime: 1.859080
+strict-transport-security: max-age=63072000; includeSubDomains
+content-length: 14395
+date: Thu, 16 Oct 2025 21:40:08 GMT
+via: 1.1 google
+alt-svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+X-Firefox-Spdy: h2
+ ctid 1 uncompressed-len 0 net-response-time-onstart 7065 net-response-time-onstop 7139   8;

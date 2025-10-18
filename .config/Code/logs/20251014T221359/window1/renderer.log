@@ -1,0 +1,347 @@
+2025-10-14 22:14:04.618 [info] Started local extension host with pid 2326.
+2025-10-14 22:14:25.138 [info] Extension host (LocalProcess pid: 2326) is unresponsive.
+2025-10-14 22:14:29.947 [warning] Creation of workbench contribution 'terminal.chatAgentTools' took 114ms.
+2025-10-14 22:14:30.140 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2025-10-14 22:14:34.254 [warning] Creation of workbench contribution 'workbench.contrib.configurationMigration' took 130ms.
+2025-10-14 22:14:36.131 [info] [perf] Render performance baseline is -1ms
+2025-10-14 22:14:41.817 [error] [Extension Host] (node:2326) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+(Use `exe --trace-warnings ...` to show where the warning was created)
+2025-10-14 22:14:41.837 [info] Extension host (LocalProcess pid: 2326) is responsive.
+2025-10-14 22:14:43.084 [error] Failed to fetch token entitlements Server returned 403
+2025-10-14 22:14:43.334 [error] [Extension Host] Failed to load MSAL binary: Error: Cannot find module './msal-node-runtime'
+Require stack:
+- /usr/share/code/resources/app/extensions/microsoft-authentication/dist/extension.js
+- /usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1372:15)
+    at Module.n._resolveFilename (node:electron/js2c/utility_init:2:16249)
+    at Module.t._resolveFilename (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:209:22931)
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1028:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1033:22)
+    at Module._load (node:internal/modules/cjs/loader:1182:37)
+    at Module.c._load (node:electron/js2c/node_init:2:17993)
+    at Module.e._load (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:391:5984)
+    at Module.t._load (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:209:22649)
+    at Module.r._load (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:201:25551)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:242:24)
+    at Module.require (node:internal/modules/cjs/loader:1452:12)
+    at Module.require (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:81:36096)
+    at require (node:internal/modules/helpers:135:16)
+    at Object.7247 (/usr/share/code/resources/app/extensions/microsoft-authentication/dist/extension.js:2:231600)
+    at n (/usr/share/code/resources/app/extensions/microsoft-authentication/dist/extension.js:2:559324)
+    at Module.9020 (/usr/share/code/resources/app/extensions/microsoft-authentication/dist/extension.js:2:526968)
+    at n (/usr/share/code/resources/app/extensions/microsoft-authentication/dist/extension.js:2:559324)
+    at Object.6244 (/usr/share/code/resources/app/extensions/microsoft-authentication/dist/extension.js:2:215773)
+    at n (/usr/share/code/resources/app/extensions/microsoft-authentication/dist/extension.js:2:559324)
+    at Object.3226 (/usr/share/code/resources/app/extensions/microsoft-authentication/dist/extension.js:2:129004)
+    at n (/usr/share/code/resources/app/extensions/microsoft-authentication/dist/extension.js:2:559324)
+    at Object.2583 (/usr/share/code/resources/app/extensions/microsoft-authentication/dist/extension.js:2:105051)
+    at n (/usr/share/code/resources/app/extensions/microsoft-authentication/dist/extension.js:2:559324)
+    at Object.8428 (/usr/share/code/resources/app/extensions/microsoft-authentication/dist/extension.js:2:452019)
+    at n (/usr/share/code/resources/app/extensions/microsoft-authentication/dist/extension.js:2:559324)
+    at Object.5256 (/usr/share/code/resources/app/extensions/microsoft-authentication/dist/extension.js:2:172891)
+    at n (/usr/share/code/resources/app/extensions/microsoft-authentication/dist/extension.js:2:559324)
+    at /usr/share/code/resources/app/extensions/microsoft-authentication/dist/extension.js:2:559691
+    at Object.<anonymous> (/usr/share/code/resources/app/extensions/microsoft-authentication/dist/extension.js:2:559798)
+    at Module._compile (node:internal/modules/cjs/loader:1696:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1829:10)
+    at Module.load (node:internal/modules/cjs/loader:1430:32)
+    at Module._load (node:internal/modules/cjs/loader:1253:12)
+    at Module.c._load (node:electron/js2c/node_init:2:17993)
+    at Module.e._load (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:391:5984)
+    at Module.t._load (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:209:22649)
+    at Module.r._load (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:201:25551)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:242:24)
+    at Module.require (node:internal/modules/cjs/loader:1452:12)
+    at Module.require (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:81:36096)
+    at require (node:internal/modules/helpers:135:16)
+    at aJ.Cb (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:240:1253)
+2025-10-14 22:14:46.460 [warning] Failed to update in-progress status for chat session type 'claude-code': Can not find provider for claude-code
+2025-10-14 22:14:54.783 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-14 22:49:41.922 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-14 22:49:51.733 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-14 22:50:28.889 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-14 22:50:37.612 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-14 22:53:26.834 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-14 22:53:30.896 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-14 22:55:24.914 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-14 22:55:35.003 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-14 22:56:03.820 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-14 22:56:07.688 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-14 22:57:42.075 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-14 22:58:03.907 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-14 22:58:15.858 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-14 22:58:25.227 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-14 22:58:30.337 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-14 22:58:56.129 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-14 22:59:10.064 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-14 22:59:19.991 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-14 22:59:22.865 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-14 23:01:39.088 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-14 23:01:50.048 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-14 23:01:52.689 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-14 23:01:56.931 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-14 23:02:13.140 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-14 23:02:15.915 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-14 23:03:13.136 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-14 23:03:16.524 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-14 23:03:53.753 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-14 23:04:12.185 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-14 23:04:18.768 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-14 23:07:06.694 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-14 23:08:00.769 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-14 23:17:39.280 [error] [Extension Host] GET /repos/AleksBartov/school_bot - 404 with id 2F08:162E5C:5517CBF:4F4C98A:68EEAFDF in 214ms
+2025-10-14 23:54:53.998 [warning] [lifecycle] onWillShutdown is taking a long time, pending operations: join.closeStorage
+2025-10-14 23:54:56.813 [info] Started local extension host with pid 8046.
+2025-10-14 23:55:56.654 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2025-10-14 23:55:57.876 [info] [perf] Render performance baseline is 721ms
+2025-10-14 23:55:59.565 [error] Canceled: Canceled
+    at QC (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:7:1282)
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3718:37249
+    at Array.forEach (<anonymous>)
+    at ALt.dispose (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3718:37189)
+    at sAe.dispose (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3718:48866)
+    at Ppn.dispose (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3725:7731)
+    at Npn.stopAllInReverse (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3725:7033)
+    at async gxt.tb (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3724:15899)
+2025-10-14 23:55:59.566 [error] Canceled: Canceled
+    at QC (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:7:1282)
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3718:37249
+    at Array.forEach (<anonymous>)
+    at ALt.dispose (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3718:37189)
+    at sAe.dispose (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3718:48866)
+    at Ppn.dispose (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3725:7731)
+    at Npn.stopAllInReverse (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3725:7033)
+    at async gxt.tb (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3724:15899)
+2025-10-14 23:56:01.524 [warning] Creation of workbench contribution 'workbench.contrib.configurationDefaultOverridesContribution' took 29ms.
+2025-10-14 23:56:02.996 [info] Started local extension host with pid 8129.
+2025-10-14 23:56:11.477 [info] Extension host (LocalProcess pid: 8129) is unresponsive.
+2025-10-14 23:56:12.126 [info] Extension host (LocalProcess pid: 8129) is responsive.
+2025-10-14 23:56:18.863 [info] Extension host (LocalProcess pid: 8129) is unresponsive.
+2025-10-14 23:56:19.410 [info] Extension host (LocalProcess pid: 8129) is responsive.
+2025-10-14 23:56:24.949 [info] Extension host (LocalProcess pid: 8129) is unresponsive.
+2025-10-14 23:56:26.046 [warning] Creation of workbench contribution 'terminal.chatAgentTools' took 104ms.
+2025-10-14 23:56:26.090 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2025-10-14 23:56:30.030 [info] [perf] Render performance baseline is -1ms
+2025-10-14 23:56:32.471 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:555:10248
+2025-10-14 23:56:40.764 [error] [Extension Host] (node:8129) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+(Use `exe --trace-warnings ...` to show where the warning was created)
+2025-10-14 23:56:40.799 [info] Extension host (LocalProcess pid: 8129) is responsive.
+2025-10-14 23:56:41.959 [error] Failed to fetch token entitlements Server returned 403
+2025-10-14 23:56:44.124 [error] [Extension Host] Failed to load MSAL binary: Error: Cannot find module './msal-node-runtime'
+Require stack:
+- /usr/share/code/resources/app/extensions/microsoft-authentication/dist/extension.js
+- /usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1372:15)
+    at Module.n._resolveFilename (node:electron/js2c/utility_init:2:16249)
+    at Module.t._resolveFilename (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:209:22931)
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1028:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1033:22)
+    at Module._load (node:internal/modules/cjs/loader:1182:37)
+    at Module.c._load (node:electron/js2c/node_init:2:17993)
+    at Module.e._load (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:391:5984)
+    at Module.t._load (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:209:22649)
+    at Module.r._load (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:201:25551)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:242:24)
+    at Module.require (node:internal/modules/cjs/loader:1452:12)
+    at Module.require (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:81:36096)
+    at require (node:internal/modules/helpers:135:16)
+    at Object.7247 (/usr/share/code/resources/app/extensions/microsoft-authentication/dist/extension.js:2:231600)
+    at n (/usr/share/code/resources/app/extensions/microsoft-authentication/dist/extension.js:2:559324)
+    at Module.9020 (/usr/share/code/resources/app/extensions/microsoft-authentication/dist/extension.js:2:526968)
+    at n (/usr/share/code/resources/app/extensions/microsoft-authentication/dist/extension.js:2:559324)
+    at Object.6244 (/usr/share/code/resources/app/extensions/microsoft-authentication/dist/extension.js:2:215773)
+    at n (/usr/share/code/resources/app/extensions/microsoft-authentication/dist/extension.js:2:559324)
+    at Object.3226 (/usr/share/code/resources/app/extensions/microsoft-authentication/dist/extension.js:2:129004)
+    at n (/usr/share/code/resources/app/extensions/microsoft-authentication/dist/extension.js:2:559324)
+    at Object.2583 (/usr/share/code/resources/app/extensions/microsoft-authentication/dist/extension.js:2:105051)
+    at n (/usr/share/code/resources/app/extensions/microsoft-authentication/dist/extension.js:2:559324)
+    at Object.8428 (/usr/share/code/resources/app/extensions/microsoft-authentication/dist/extension.js:2:452019)
+    at n (/usr/share/code/resources/app/extensions/microsoft-authentication/dist/extension.js:2:559324)
+    at Object.5256 (/usr/share/code/resources/app/extensions/microsoft-authentication/dist/extension.js:2:172891)
+    at n (/usr/share/code/resources/app/extensions/microsoft-authentication/dist/extension.js:2:559324)
+    at /usr/share/code/resources/app/extensions/microsoft-authentication/dist/extension.js:2:559691
+    at Object.<anonymous> (/usr/share/code/resources/app/extensions/microsoft-authentication/dist/extension.js:2:559798)
+    at Module._compile (node:internal/modules/cjs/loader:1696:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1829:10)
+    at Module.load (node:internal/modules/cjs/loader:1430:32)
+    at Module._load (node:internal/modules/cjs/loader:1253:12)
+    at Module.c._load (node:electron/js2c/node_init:2:17993)
+    at Module.e._load (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:391:5984)
+    at Module.t._load (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:209:22649)
+    at Module.r._load (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:201:25551)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:242:24)
+    at Module.require (node:internal/modules/cjs/loader:1452:12)
+    at Module.require (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:81:36096)
+    at require (node:internal/modules/helpers:135:16)
+    at aJ.Cb (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:240:1253)
+2025-10-14 23:56:47.780 [warning] Failed to update in-progress status for chat session type 'claude-code': Can not find provider for claude-code
+2025-10-14 23:56:52.546 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-15 00:00:15.302 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-15 00:00:36.541 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-15 00:00:49.572 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-15 00:00:54.485 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-15 00:01:10.577 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-15 00:01:37.129 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-15 00:01:49.189 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-15 00:01:56.213 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-15 00:02:05.546 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-15 00:02:19.080 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-15 00:02:32.613 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-15 00:02:44.459 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-15 00:02:50.937 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-15 00:02:57.654 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-15 00:03:19.674 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-15 00:03:33.752 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-15 00:03:48.865 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-15 00:04:01.015 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-15 00:04:07.040 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-15 00:04:13.270 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-15 00:04:30.333 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-15 00:05:02.742 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-15 00:05:09.864 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-15 00:05:18.591 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-15 00:05:26.339 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-15 00:05:34.477 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-15 00:07:50.116 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-15 00:07:54.730 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-15 00:10:05.269 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-15 00:10:41.099 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-15 00:11:10.100 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-15 00:11:23.731 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-15 00:11:36.834 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-15 00:12:15.220 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-15 00:13:24.623 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-15 00:15:00.558 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-15 00:15:15.834 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-15 00:15:40.011 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-15 00:16:14.204 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-15 00:16:51.634 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-15 00:17:10.971 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-15 00:17:19.703 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-15 00:17:49.253 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-15 00:18:10.526 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-15 00:18:13.470 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-15 00:19:57.103 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-15 00:20:06.464 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-15 00:20:13.159 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-15 00:21:47.502 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-15 00:21:54.883 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-15 00:22:01.189 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-15 00:25:09.358 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-15 00:25:15.401 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-15 00:29:46.041 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-15 00:32:35.718 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-15 00:32:55.134 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-15 00:33:13.289 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-15 00:33:18.355 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-15 00:33:28.085 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-15 00:33:41.514 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-15 00:33:50.842 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-15 00:34:07.360 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-15 00:34:12.237 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-15 00:35:20.952 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-15 00:35:31.152 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-15 00:36:43.686 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-15 00:37:54.382 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-15 00:38:25.374 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-15 00:38:29.673 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-15 00:38:38.018 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-15 00:38:41.182 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-15 00:38:44.872 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-15 00:39:34.762 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-15 00:39:45.301 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-15 00:40:03.789 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-15 00:40:08.757 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-15 00:40:22.180 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-15 00:40:32.178 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-15 00:41:01.143 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-15 00:42:16.504 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-15 00:42:28.245 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-15 00:42:49.022 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-15 00:42:52.518 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-15 00:44:08.005 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-15 00:44:16.395 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-15 00:44:27.308 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-15 00:44:35.036 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-15 00:44:39.776 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-15 00:44:55.338 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-15 00:45:11.581 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-15 00:45:14.354 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-15 00:45:23.017 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-15 00:45:26.757 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-15 00:46:06.249 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-15 00:46:14.828 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-15 00:46:34.134 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-15 00:46:41.271 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-15 00:46:48.779 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-15 00:46:57.500 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-15 00:47:19.325 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-15 00:48:18.533 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-15 00:48:21.743 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-15 00:51:36.436 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-15 00:52:31.408 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-15 00:54:09.992 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-15 00:54:34.644 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-15 00:54:56.394 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-15 00:56:13.845 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-15 00:56:18.106 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-15 00:56:22.222 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-15 00:56:38.583 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-15 00:56:42.707 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-15 00:57:13.939 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-15 00:57:32.302 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-15 00:57:35.983 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-15 00:57:56.143 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-15 00:58:04.149 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-15 00:58:52.374 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-15 00:59:18.634 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-15 00:59:49.871 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-15 01:00:19.764 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-15 01:00:29.989 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-15 01:00:37.458 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-15 01:00:41.564 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-15 01:00:44.667 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-15 01:00:59.876 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-15 01:01:02.698 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-15 01:01:22.989 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-15 01:01:34.246 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-15 01:01:37.926 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-15 01:01:59.420 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-15 01:02:29.132 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-15 01:02:54.243 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-15 01:02:58.724 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-15 01:03:03.636 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-15 01:03:21.913 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-15 01:03:26.654 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-15 01:03:48.735 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-15 01:03:58.836 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-15 01:05:17.364 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-15 01:05:26.230 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-15 01:05:31.558 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-15 01:06:44.615 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-15 01:06:47.262 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-15 01:09:09.596 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-15 01:09:12.649 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-15 01:09:20.551 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-15 01:09:34.684 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-15 01:09:46.402 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-15 01:09:52.439 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-15 01:10:04.602 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-15 01:10:38.168 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-15 01:10:43.404 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-15 01:10:56.761 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-15 01:11:02.666 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-15 01:11:07.580 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-15 01:11:11.552 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-15 01:11:19.681 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-15 01:11:57.184 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-15 01:12:05.512 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-15 01:12:09.972 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-15 01:12:20.270 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-15 01:12:26.289 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-15 01:12:29.912 [error] An unknown error occurred. Please consult the log for more details.

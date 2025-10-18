@@ -1,0 +1,238 @@
+2025-10-18 23:30:39.813 [info] Started local extension host with pid 2678.
+2025-10-18 23:30:48.630 [error] Canceled: Canceled
+    at QC (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:7:1282)
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3718:37249
+    at Array.forEach (<anonymous>)
+    at ALt.dispose (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3718:37189)
+    at sAe.dispose (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3718:48866)
+    at Ppn.dispose (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3725:7731)
+    at Npn.stopAllInReverse (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3725:7033)
+    at async gxt.tb (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3724:15899)
+2025-10-18 23:30:50.773 [info] Started local extension host with pid 2980.
+2025-10-18 23:30:54.368 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2025-10-18 23:30:56.738 [info] [perf] Render performance baseline is 533ms
+2025-10-18 23:30:56.824 [error] Failed to fetch token entitlements Server returned 403
+2025-10-18 23:30:59.651 [info] Extension host (LocalProcess pid: 2980) is unresponsive.
+2025-10-18 23:31:01.081 [info] UNRESPONSIVE extension host: starting to profile NOW
+2025-10-18 23:31:06.962 [warning] UNRESPONSIVE extension host: 'github.copilot' took 46.51181650485534% of 2328.542ms, saved PROFILE here: 'file:///tmp/exthost-9a310d.cpuprofile'
+2025-10-18 23:31:07.426 [error] [Extension Host] (node:2980) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+(Use `exe --trace-warnings ...` to show where the warning was created)
+2025-10-18 23:31:07.432 [info] Extension host (LocalProcess pid: 2980) is responsive.
+2025-10-18 23:31:08.544 [error] [Extension Host] Failed to load MSAL binary: Error: Cannot find module './msal-node-runtime'
+Require stack:
+- /usr/share/code/resources/app/extensions/microsoft-authentication/dist/extension.js
+- /usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1372:15)
+    at Module.n._resolveFilename (node:electron/js2c/utility_init:2:16249)
+    at Module.t._resolveFilename (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:209:22931)
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1028:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1033:22)
+    at Module._load (node:internal/modules/cjs/loader:1182:37)
+    at Module.c._load (node:electron/js2c/node_init:2:17993)
+    at Module.e._load (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:391:5984)
+    at Module.t._load (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:209:22649)
+    at Module.r._load (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:201:25551)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:242:24)
+    at Module.require (node:internal/modules/cjs/loader:1452:12)
+    at Module.require (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:81:36096)
+    at require (node:internal/modules/helpers:135:16)
+    at Object.7247 (/usr/share/code/resources/app/extensions/microsoft-authentication/dist/extension.js:2:231600)
+    at n (/usr/share/code/resources/app/extensions/microsoft-authentication/dist/extension.js:2:559324)
+    at Module.9020 (/usr/share/code/resources/app/extensions/microsoft-authentication/dist/extension.js:2:526968)
+    at n (/usr/share/code/resources/app/extensions/microsoft-authentication/dist/extension.js:2:559324)
+    at Object.6244 (/usr/share/code/resources/app/extensions/microsoft-authentication/dist/extension.js:2:215773)
+    at n (/usr/share/code/resources/app/extensions/microsoft-authentication/dist/extension.js:2:559324)
+    at Object.3226 (/usr/share/code/resources/app/extensions/microsoft-authentication/dist/extension.js:2:129004)
+    at n (/usr/share/code/resources/app/extensions/microsoft-authentication/dist/extension.js:2:559324)
+    at Object.2583 (/usr/share/code/resources/app/extensions/microsoft-authentication/dist/extension.js:2:105051)
+    at n (/usr/share/code/resources/app/extensions/microsoft-authentication/dist/extension.js:2:559324)
+    at Object.8428 (/usr/share/code/resources/app/extensions/microsoft-authentication/dist/extension.js:2:452019)
+    at n (/usr/share/code/resources/app/extensions/microsoft-authentication/dist/extension.js:2:559324)
+    at Object.5256 (/usr/share/code/resources/app/extensions/microsoft-authentication/dist/extension.js:2:172891)
+    at n (/usr/share/code/resources/app/extensions/microsoft-authentication/dist/extension.js:2:559324)
+    at /usr/share/code/resources/app/extensions/microsoft-authentication/dist/extension.js:2:559691
+    at Object.<anonymous> (/usr/share/code/resources/app/extensions/microsoft-authentication/dist/extension.js:2:559798)
+    at Module._compile (node:internal/modules/cjs/loader:1696:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1829:10)
+    at Module.load (node:internal/modules/cjs/loader:1430:32)
+    at Module._load (node:internal/modules/cjs/loader:1253:12)
+    at Module.c._load (node:electron/js2c/node_init:2:17993)
+    at Module.e._load (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:391:5984)
+    at Module.t._load (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:209:22649)
+    at Module.r._load (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:201:25551)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:242:24)
+    at Module.require (node:internal/modules/cjs/loader:1452:12)
+    at Module.require (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:81:36096)
+    at require (node:internal/modules/helpers:135:16)
+    at aJ.Cb (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:240:1253)
+2025-10-18 23:31:12.485 [info] Started local extension host with pid 3053.
+2025-10-18 23:31:14.574 [info] ChatSessionStore: Migrating 0 chat sessions from storage service to file system
+2025-10-18 23:31:17.591 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2025-10-18 23:31:18.943 [info] [perf] Render performance baseline is 628ms
+2025-10-18 23:31:19.000 [error] Failed to fetch token entitlements Server returned 403
+2025-10-18 23:31:21.861 [info] Extension host (LocalProcess pid: 3053) is unresponsive.
+2025-10-18 23:31:23.088 [info] UNRESPONSIVE extension host: starting to profile NOW
+2025-10-18 23:31:28.078 [error] [Extension Host] (node:3053) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+(Use `exe --trace-warnings ...` to show where the warning was created)
+2025-10-18 23:31:28.235 [info] Extension host (LocalProcess pid: 3053) is responsive.
+2025-10-18 23:31:28.238 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2025-10-18 23:31:29.734 [error] [Extension Host] Failed to load MSAL binary: Error: Cannot find module './msal-node-runtime'
+Require stack:
+- /usr/share/code/resources/app/extensions/microsoft-authentication/dist/extension.js
+- /usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1372:15)
+    at Module.n._resolveFilename (node:electron/js2c/utility_init:2:16249)
+    at Module.t._resolveFilename (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:209:22931)
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1028:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1033:22)
+    at Module._load (node:internal/modules/cjs/loader:1182:37)
+    at Module.c._load (node:electron/js2c/node_init:2:17993)
+    at Module.e._load (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:391:5984)
+    at Module.t._load (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:209:22649)
+    at Module.r._load (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:201:25551)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:242:24)
+    at Module.require (node:internal/modules/cjs/loader:1452:12)
+    at Module.require (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:81:36096)
+    at require (node:internal/modules/helpers:135:16)
+    at Object.7247 (/usr/share/code/resources/app/extensions/microsoft-authentication/dist/extension.js:2:231600)
+    at n (/usr/share/code/resources/app/extensions/microsoft-authentication/dist/extension.js:2:559324)
+    at Module.9020 (/usr/share/code/resources/app/extensions/microsoft-authentication/dist/extension.js:2:526968)
+    at n (/usr/share/code/resources/app/extensions/microsoft-authentication/dist/extension.js:2:559324)
+    at Object.6244 (/usr/share/code/resources/app/extensions/microsoft-authentication/dist/extension.js:2:215773)
+    at n (/usr/share/code/resources/app/extensions/microsoft-authentication/dist/extension.js:2:559324)
+    at Object.3226 (/usr/share/code/resources/app/extensions/microsoft-authentication/dist/extension.js:2:129004)
+    at n (/usr/share/code/resources/app/extensions/microsoft-authentication/dist/extension.js:2:559324)
+    at Object.2583 (/usr/share/code/resources/app/extensions/microsoft-authentication/dist/extension.js:2:105051)
+    at n (/usr/share/code/resources/app/extensions/microsoft-authentication/dist/extension.js:2:559324)
+    at Object.8428 (/usr/share/code/resources/app/extensions/microsoft-authentication/dist/extension.js:2:452019)
+    at n (/usr/share/code/resources/app/extensions/microsoft-authentication/dist/extension.js:2:559324)
+    at Object.5256 (/usr/share/code/resources/app/extensions/microsoft-authentication/dist/extension.js:2:172891)
+    at n (/usr/share/code/resources/app/extensions/microsoft-authentication/dist/extension.js:2:559324)
+    at /usr/share/code/resources/app/extensions/microsoft-authentication/dist/extension.js:2:559691
+    at Object.<anonymous> (/usr/share/code/resources/app/extensions/microsoft-authentication/dist/extension.js:2:559798)
+    at Module._compile (node:internal/modules/cjs/loader:1696:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1829:10)
+    at Module.load (node:internal/modules/cjs/loader:1430:32)
+    at Module._load (node:internal/modules/cjs/loader:1253:12)
+    at Module.c._load (node:electron/js2c/node_init:2:17993)
+    at Module.e._load (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:391:5984)
+    at Module.t._load (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:209:22649)
+    at Module.r._load (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:201:25551)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:242:24)
+    at Module.require (node:internal/modules/cjs/loader:1452:12)
+    at Module.require (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:81:36096)
+    at require (node:internal/modules/helpers:135:16)
+    at aJ.Cb (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:240:1253)
+2025-10-18 23:31:29.745 [warning] UNRESPONSIVE extension host: 'github.copilot' took 38.78406887301478% of 1956.429ms, saved PROFILE here: 'file:///tmp/exthost-485320.cpuprofile'
+2025-10-18 23:31:32.438 [warning] Failed to update in-progress status for chat session type 'claude-code': Can not find provider for claude-code
+2025-10-18 23:31:35.407 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-18 23:32:48.902 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-18 23:33:39.625 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-18 23:34:02.781 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-18 23:34:48.494 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-18 23:34:55.243 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-18 23:35:38.312 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-18 23:35:40.848 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-18 23:36:59.373 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-18 23:37:07.667 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-18 23:37:37.153 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-18 23:38:52.676 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-18 23:38:55.472 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-18 23:39:16.131 [info] Extension host (LocalProcess pid: 3053) is unresponsive.
+2025-10-18 23:39:19.065 [info] UNRESPONSIVE extension host: starting to profile NOW
+2025-10-18 23:39:25.626 [info] Extension host (LocalProcess pid: 3053) is responsive.
+2025-10-18 23:39:25.636 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2025-10-18 23:39:28.317 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:555:10248
+2025-10-18 23:39:29.775 [info] Extension host (LocalProcess pid: 3053) is unresponsive.
+2025-10-18 23:39:31.944 [info] UNRESPONSIVE extension host: starting to profile NOW
+2025-10-18 23:39:33.666 [info] Extension host (LocalProcess pid: 3053) is responsive.
+2025-10-18 23:39:33.681 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2025-10-18 23:39:34.335 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-18 23:39:35.924 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-18 23:39:37.593 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-18 23:40:23.948 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-18 23:42:58.219 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-18 23:43:32.333 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-18 23:54:09.686 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-18 23:55:06.866 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-18 23:55:17.097 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-18 23:55:30.330 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-18 23:59:09.744 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-18 23:59:12.145 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-18 23:59:15.084 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-18 23:59:52.409 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-18 23:59:58.222 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-19 00:01:49.264 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-19 00:02:04.871 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-19 00:02:13.763 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-19 00:02:22.666 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-19 00:08:19.101 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-19 00:08:29.224 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-19 00:08:36.739 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-19 00:10:13.431 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-19 00:10:40.495 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-19 00:19:10.522 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-19 00:19:17.840 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-19 00:27:00.658 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-19 00:27:11.746 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-19 00:27:15.067 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-19 00:27:45.905 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-19 00:27:55.135 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-19 00:31:36.181 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-19 00:31:39.846 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-19 00:32:34.914 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-19 00:32:42.013 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-19 00:44:54.664 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-19 00:45:27.346 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-19 00:47:29.444 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-19 00:47:48.937 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-19 00:48:00.781 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-19 00:48:13.922 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-19 00:54:15.429 [info] Extension host (LocalProcess pid: 3053) is unresponsive.
+2025-10-19 00:54:17.280 [info] UNRESPONSIVE extension host: starting to profile NOW
+2025-10-19 00:54:20.068 [info] Extension host (LocalProcess pid: 3053) is responsive.
+2025-10-19 00:54:20.076 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2025-10-19 00:54:33.576 [info] Extension host (LocalProcess pid: 3053) is unresponsive.
+2025-10-19 00:54:35.153 [info] UNRESPONSIVE extension host: starting to profile NOW
+2025-10-19 00:54:36.137 [info] Extension host (LocalProcess pid: 3053) is responsive.
+2025-10-19 00:54:36.141 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2025-10-19 00:54:54.592 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-19 00:55:21.771 [info] Extension host (LocalProcess pid: 3053) is unresponsive.
+2025-10-19 00:55:23.156 [info] UNRESPONSIVE extension host: starting to profile NOW
+2025-10-19 00:55:25.850 [info] Extension host (LocalProcess pid: 3053) is responsive.
+2025-10-19 00:55:25.851 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2025-10-19 00:55:45.584 [info] Extension host (LocalProcess pid: 3053) is unresponsive.
+2025-10-19 00:55:48.285 [info] UNRESPONSIVE extension host: starting to profile NOW
+2025-10-19 00:55:50.978 [info] Extension host (LocalProcess pid: 3053) is responsive.
+2025-10-19 00:55:50.982 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2025-10-19 00:55:55.859 [info] Extension host (LocalProcess pid: 3053) is unresponsive.
+2025-10-19 00:55:57.539 [info] UNRESPONSIVE extension host: starting to profile NOW
+2025-10-19 00:55:59.974 [info] Extension host (LocalProcess pid: 3053) is responsive.
+2025-10-19 00:55:59.980 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2025-10-19 00:56:07.115 [info] Extension host (LocalProcess pid: 3053) is unresponsive.
+2025-10-19 00:56:09.305 [info] UNRESPONSIVE extension host: starting to profile NOW
+2025-10-19 00:56:09.324 [info] Extension host (LocalProcess pid: 3053) is responsive.
+2025-10-19 00:56:09.327 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2025-10-19 00:56:19.471 [info] Extension host (LocalProcess pid: 3053) is unresponsive.
+2025-10-19 00:56:21.378 [info] UNRESPONSIVE extension host: starting to profile NOW
+2025-10-19 00:56:23.750 [info] Extension host (LocalProcess pid: 3053) is responsive.
+2025-10-19 00:56:23.752 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2025-10-19 00:56:52.839 [info] Extension host (LocalProcess pid: 3053) is unresponsive.
+2025-10-19 00:56:54.929 [info] UNRESPONSIVE extension host: starting to profile NOW
+2025-10-19 00:56:57.730 [info] Extension host (LocalProcess pid: 3053) is responsive.
+2025-10-19 00:56:57.741 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2025-10-19 01:01:32.012 [error] [Extension Host] GET /repos/AleksBartov/audioInterviewBot - 404 with id 35B9:1B991:4EE466F:48F3984:68F40E3B in 404ms
+2025-10-19 01:01:34.405 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-19 01:02:34.102 [info] Extension host (LocalProcess pid: 3053) is unresponsive.
+2025-10-19 01:02:35.411 [info] UNRESPONSIVE extension host: starting to profile NOW
+2025-10-19 01:02:40.807 [info] Extension host (LocalProcess pid: 3053) is responsive.
+2025-10-19 01:02:40.814 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2025-10-19 01:02:52.341 [info] Extension host (LocalProcess pid: 3053) is unresponsive.
+2025-10-19 01:02:54.740 [info] UNRESPONSIVE extension host: starting to profile NOW
+2025-10-19 01:03:00.240 [warning] UNRESPONSIVE extension host: 'vscode.git' took 48.28768457552499% of 2416.83ms, saved PROFILE here: 'file:///tmp/exthost-b06d6b.cpuprofile'
+2025-10-19 01:03:06.394 [info] Extension host (LocalProcess pid: 3053) is responsive.

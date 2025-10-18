@@ -1,0 +1,5 @@
+2025-10-10 23:26:30.597 [info] update#setState idle
+2025-10-10 23:27:00.156 [info] update#setState checking for updates
+2025-10-10 23:27:00.259 [info] update#setState available for download
+2025-10-10 23:45:53.071 [warning] No ptyHost heartbeat after 6 seconds
+2025-10-11 00:20:31.815 [info] Extension host with pid 2591 exited with code: 0, signal: unknown.

@@ -1,0 +1,46 @@
+2025-10-18 00:53:06.411 [info] [main] Log level: Info
+2025-10-18 00:53:06.412 [info] [main] Validating found git in: "git"
+2025-10-18 00:53:06.412 [info] [main] Using git "2.43.0" from "git"
+2025-10-18 00:53:06.412 [info] [Model][doInitialScan] Initial repository scan started
+2025-10-18 00:53:06.412 [info] > git rev-parse --show-toplevel [52ms]
+2025-10-18 00:53:06.412 [info] > git rev-parse --git-dir --git-common-dir --show-superproject-working-tree [38ms]
+2025-10-18 00:53:06.412 [info] [Model][openRepository] Opened repository (path): /home/aleksandr/school_bot
+2025-10-18 00:53:06.412 [info] [Model][openRepository] Opened repository (real path): /home/aleksandr/school_bot
+2025-10-18 00:53:06.412 [info] [Model][openRepository] Opened repository (kind): repository
+2025-10-18 00:53:06.412 [info] > git rev-parse --show-toplevel [671ms]
+2025-10-18 00:53:06.412 [info] > git config --get commit.template [738ms]
+2025-10-18 00:53:06.412 [info] > git rev-parse --show-toplevel [222ms]
+2025-10-18 00:53:06.412 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [148ms]
+2025-10-18 00:53:06.412 [info] > git rev-parse --show-toplevel [63ms]
+2025-10-18 00:53:06.412 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-10-18 00:53:06.427 [info] > git status -z -uall [148ms]
+2025-10-18 00:53:06.464 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [67ms]
+2025-10-18 00:53:07.152 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [140ms]
+2025-10-18 00:53:07.320 [info] > git config --get --local branch.master.vscode-merge-base [68ms]
+2025-10-18 00:53:07.320 [warning] [Git][config] git config failed: Failed to execute git
+2025-10-18 00:53:07.362 [info] > git config --get commit.template [228ms]
+2025-10-18 00:53:07.458 [info] > git reflog master --grep-reflog=branch: Created from *. [97ms]
+2025-10-18 00:53:07.552 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [97ms]
+2025-10-18 00:53:07.818 [info] > git status -z -uall [138ms]
+2025-10-18 00:53:07.838 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [272ms]
+2025-10-18 00:53:07.838 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2025-10-18 00:53:07.838 [warning] [Repository][getDefaultBranch] Failed to get default branch details: Failed to execute git.
+2025-10-18 00:53:07.977 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [160ms]
+2025-10-18 00:53:30.757 [info] > git merge-base refs/heads/master refs/remotes/origin/master [22670ms]
+2025-10-18 00:53:30.816 [info] > git merge-base refs/heads/master refs/remotes/origin/master [22878ms]
+2025-10-18 00:53:31.591 [info] > git diff --name-status -z --diff-filter=ADMR 8e5aaa39087669c33a8462de1c0105592ecdd6ff...refs/remotes/origin/master [736ms]
+2025-10-18 00:53:31.593 [info] > git diff --name-status -z --diff-filter=ADMR 8e5aaa39087669c33a8462de1c0105592ecdd6ff...refs/remotes/origin/master [786ms]
+2025-10-18 00:53:32.495 [info] > git check-ignore -v -z --stdin [885ms]
+2025-10-18 00:53:33.803 [info] > git show --textconv :.env [926ms]
+2025-10-18 00:53:33.803 [info] > git ls-files --stage -- .env [899ms]
+2025-10-18 00:53:34.194 [info] > git hash-object -t tree /dev/null [345ms]
+2025-10-18 00:53:34.194 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/aleksandr/school_bot/.env.git?%7B%22path%22%3A%22%2Fhome%2Faleksandr%2Fschool_bot%2F.env%22%2C%22ref%22%3A%22%22%7D
+2025-10-18 00:53:34.221 [info] > git hash-object -t tree /dev/null [401ms]
+2025-10-18 00:53:34.222 [warning] [GitFileSystemProvider][stat] File not found - git:/home/aleksandr/school_bot/.env.git?%7B%22path%22%3A%22%2Fhome%2Faleksandr%2Fschool_bot%2F.env%22%2C%22ref%22%3A%22%22%7D
+2025-10-18 00:53:37.928 [info] > git blame --root --incremental 8e5aaa39087669c33a8462de1c0105592ecdd6ff -- .env [770ms]
+2025-10-18 00:53:37.928 [info] fatal: нет такого пути .env в 8e5aaa39087669c33a8462de1c0105592ecdd6ff
+2025-10-18 00:53:38.304 [info] > git config --get commit.template [211ms]
+2025-10-18 00:53:38.688 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [164ms]
+2025-10-18 00:53:38.916 [info] > git status -z -uall [106ms]
+2025-10-18 00:53:38.917 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [79ms]
+2025-10-18 00:58:59.391 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat --diff-merges=first-parent -n50 --skip=0 --topo-order --decorate=full --stdin [17ms]

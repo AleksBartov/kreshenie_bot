@@ -1,0 +1,7 @@
+2025-10-17 23:18:04.175 [info] update#setState idle
+2025-10-17 23:18:33.532 [info] update#setState checking for updates
+2025-10-17 23:18:33.626 [info] update#setState available for download
+2025-10-18 00:22:20.295 [warning] No ptyHost heartbeat after 6 seconds
+2025-10-18 00:22:20.347 [error] CodeWindow: detected unresponsive
+2025-10-18 00:22:20.846 [error] CodeWindow: recovered from unresponsive
+2025-10-18 00:30:10.999 [info] Extension host with pid 2666 exited with code: 0, signal: unknown.

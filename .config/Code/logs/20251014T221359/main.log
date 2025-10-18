@@ -1,0 +1,8 @@
+2025-10-14 22:14:00.851 [info] update#setState idle
+2025-10-14 22:14:29.914 [info] update#setState checking for updates
+2025-10-14 22:14:30.026 [info] update#setState available for download
+2025-10-14 23:54:53.762 [info] Extension host with pid 2326 exited with code: 0, signal: unknown.
+2025-10-14 23:55:51.115 [warning] No ptyHost heartbeat after 6 seconds
+2025-10-14 23:55:59.813 [error] [UtilityProcess id: 1, type: fileWatcher, pid: 8045]: crashed with code 15 and reason 'killed'
+2025-10-14 23:56:11.136 [info] Extension host with pid 8046 exited with code: 0, signal: unknown.
+2025-10-15 01:19:34.391 [info] Extension host with pid 8129 exited with code: 0, signal: unknown.

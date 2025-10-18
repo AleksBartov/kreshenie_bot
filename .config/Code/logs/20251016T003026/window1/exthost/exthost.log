@@ -1,0 +1,551 @@
+2025-10-16 00:30:34.817 [info] Extension host with pid 8358 started
+2025-10-16 00:30:34.817 [info] Skipping acquiring lock for /home/aleksandr/.config/Code/User/workspaceStorage/e67f02d02d590357a715e5a87c831752.
+2025-10-16 00:30:35.385 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2025-10-16 00:30:36.466 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-10-16 00:30:36.503 [info] ExtensionService#_doActivateExtension vscode.npm, startup: true, activationEvent: 'workspaceContains:package.json'
+2025-10-16 00:30:37.108 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-10-16 00:30:37.726 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-10-16 00:30:38.571 [info] ExtensionService#_doActivateExtension vscode.terminal-suggest, startup: false, activationEvent: 'onTerminalShellIntegration:*'
+2025-10-16 00:30:40.068 [info] Eager extensions activated
+2025-10-16 00:30:40.161 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-10-16 00:30:40.204 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-10-16 00:30:40.388 [info] ExtensionService#_doActivateExtension GitHub.copilot, startup: false, activationEvent: 'onStartupFinished'
+2025-10-16 00:30:47.160 [info] ExtensionService#_doActivateExtension GitHub.copilot-chat, startup: false, activationEvent: 'onStartupFinished'
+2025-10-16 00:30:49.785 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-10-16 00:30:50.847 [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication, startup: false, activationEvent: 'onAuthenticationRequest:microsoft'
+2025-10-16 00:30:53.821 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:json'
+2025-10-16 00:30:53.855 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:json'
+2025-10-16 00:30:53.893 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:json'
+2025-10-16 00:30:58.030 [error] Error: Failed to get copilot token
+    at y9._authShowWarnings (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:949:17015)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at y9.getCopilotToken (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:949:15345)
+    at YG.getCopilotToken (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:485:25421)
+    at sE._fetchModels (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:2934:3968)
+    at sE.getAllChatModels (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:2934:2014)
+    at Bj.getAllChatEndpoints (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:2934:14863)
+2025-10-16 00:30:58.035 [error] Error: Failed to get copilot token
+    at y9._authShowWarnings (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:949:17015)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at y9.getCopilotToken (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:949:15345)
+    at YG.getCopilotToken (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:485:25421)
+    at py.getExpandedClientSideIndexingStatus (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:1102:5892)
+    at py.getManualIndexFileCap (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:1102:5590)
+    at py.checkIndexSizeLimits (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:1102:3321)
+    at /home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:1102:2565
+2025-10-16 00:30:58.036 [error] Error: Failed to get copilot token
+    at y9._authShowWarnings (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:949:17015)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at y9.getCopilotToken (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:949:15345)
+    at YG.getCopilotToken (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:485:25421)
+    at py.getExpandedClientSideIndexingStatus (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:1102:5892)
+    at py.getManualIndexFileCap (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:1102:5590)
+    at py.checkIndexSizeLimits (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:1102:3321)
+    at /home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:1102:2565
+2025-10-16 00:30:58.038 [error] Error: Failed to get copilot token
+    at y9._authShowWarnings (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:949:17015)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at y9.getCopilotToken (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:949:15345)
+    at YG.getCopilotToken (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:485:25421)
+    at py.getExpandedClientSideIndexingStatus (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:1102:5892)
+    at py.getManualIndexFileCap (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:1102:5590)
+    at py.checkIndexSizeLimits (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:1102:3321)
+    at /home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:1102:2565
+2025-10-16 00:30:58.039 [error] Error: Failed to get copilot token
+    at y9._authShowWarnings (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:949:17015)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at y9.getCopilotToken (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:949:15345)
+    at YG.getCopilotToken (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:485:25421)
+    at py.getExpandedClientSideIndexingStatus (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:1102:5892)
+    at py.getManualIndexFileCap (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:1102:5590)
+    at py.checkIndexSizeLimits (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:1102:3321)
+    at /home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:1102:2565
+2025-10-16 00:35:16.705 [error] Error: Failed to get copilot token
+    at y9._authShowWarnings (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:949:17015)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at y9.getCopilotToken (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:949:15345)
+    at YG.getCopilotToken (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:485:25421)
+    at py.getExpandedClientSideIndexingStatus (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:1102:5892)
+    at py.getManualIndexFileCap (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:1102:5590)
+    at py.checkIndexSizeLimits (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:1102:3321)
+    at /home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:1102:2565
+2025-10-16 00:36:19.087 [error] Error: Failed to get copilot token
+    at y9._authShowWarnings (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:949:17015)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at y9.getCopilotToken (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:949:15345)
+    at YG.getCopilotToken (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:485:25421)
+    at py.getExpandedClientSideIndexingStatus (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:1102:5892)
+    at py.getManualIndexFileCap (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:1102:5590)
+    at py.checkIndexSizeLimits (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:1102:3321)
+    at /home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:1102:2565
+2025-10-16 00:36:22.840 [error] Error: Failed to get copilot token
+    at y9._authShowWarnings (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:949:17015)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at y9.getCopilotToken (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:949:15345)
+    at YG.getCopilotToken (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:485:25421)
+    at py.getExpandedClientSideIndexingStatus (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:1102:5892)
+    at py.getManualIndexFileCap (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:1102:5590)
+    at py.checkIndexSizeLimits (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:1102:3321)
+    at /home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:1102:2565
+2025-10-16 00:36:28.931 [error] Error: Failed to get copilot token
+    at y9._authShowWarnings (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:949:17015)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at y9.getCopilotToken (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:949:15345)
+    at YG.getCopilotToken (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:485:25421)
+    at py.getExpandedClientSideIndexingStatus (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:1102:5892)
+    at py.getManualIndexFileCap (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:1102:5590)
+    at py.checkIndexSizeLimits (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:1102:3321)
+    at /home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:1102:2565
+2025-10-16 00:36:41.466 [error] Error: Failed to get copilot token
+    at y9._authShowWarnings (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:949:17015)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at y9.getCopilotToken (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:949:15345)
+    at YG.getCopilotToken (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:485:25421)
+    at py.getExpandedClientSideIndexingStatus (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:1102:5892)
+    at py.getManualIndexFileCap (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:1102:5590)
+    at py.checkIndexSizeLimits (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:1102:3321)
+    at /home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:1102:2565
+2025-10-16 00:36:49.402 [error] Error: Failed to get copilot token
+    at y9._authShowWarnings (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:949:17015)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at y9.getCopilotToken (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:949:15345)
+    at YG.getCopilotToken (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:485:25421)
+    at py.getExpandedClientSideIndexingStatus (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:1102:5892)
+    at py.getManualIndexFileCap (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:1102:5590)
+    at py.checkIndexSizeLimits (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:1102:3321)
+    at /home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:1102:2565
+2025-10-16 00:36:55.950 [error] Error: Failed to get copilot token
+    at y9._authShowWarnings (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:949:17015)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at y9.getCopilotToken (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:949:15345)
+    at YG.getCopilotToken (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:485:25421)
+    at py.getExpandedClientSideIndexingStatus (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:1102:5892)
+    at py.getManualIndexFileCap (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:1102:5590)
+    at py.checkIndexSizeLimits (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:1102:3321)
+    at /home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:1102:2565
+2025-10-16 00:37:14.857 [error] Error: Failed to get copilot token
+    at y9._authShowWarnings (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:949:17015)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at y9.getCopilotToken (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:949:15345)
+    at YG.getCopilotToken (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:485:25421)
+    at py.getExpandedClientSideIndexingStatus (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:1102:5892)
+    at py.getManualIndexFileCap (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:1102:5590)
+    at py.checkIndexSizeLimits (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:1102:3321)
+    at /home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:1102:2565
+2025-10-16 00:37:19.857 [error] Error: Failed to get copilot token
+    at y9._authShowWarnings (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:949:17015)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at y9.getCopilotToken (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:949:15345)
+    at YG.getCopilotToken (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:485:25421)
+    at py.getExpandedClientSideIndexingStatus (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:1102:5892)
+    at py.getManualIndexFileCap (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:1102:5590)
+    at py.checkIndexSizeLimits (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:1102:3321)
+    at /home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:1102:2565
+2025-10-16 00:41:22.903 [error] Error: Failed to get copilot token
+    at y9._authShowWarnings (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:949:17015)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at y9.getCopilotToken (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:949:15345)
+    at YG.getCopilotToken (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:485:25421)
+    at py.getExpandedClientSideIndexingStatus (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:1102:5892)
+    at py.getManualIndexFileCap (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:1102:5590)
+    at py.checkIndexSizeLimits (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:1102:3321)
+    at /home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:1102:2565
+2025-10-16 00:41:29.793 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:javascript'
+2025-10-16 00:41:43.167 [error] Error: Failed to get copilot token
+    at y9._authShowWarnings (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:949:17015)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at y9.getCopilotToken (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:949:15345)
+    at YG.getCopilotToken (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:485:25421)
+    at py.getExpandedClientSideIndexingStatus (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:1102:5892)
+    at py.getManualIndexFileCap (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:1102:5590)
+    at py.checkIndexSizeLimits (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:1102:3321)
+    at /home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:1102:2565
+2025-10-16 00:42:49.454 [error] Error: Failed to get copilot token
+    at y9._authShowWarnings (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:949:17015)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at y9.getCopilotToken (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:949:15345)
+    at YG.getCopilotToken (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:485:25421)
+    at py.getExpandedClientSideIndexingStatus (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:1102:5892)
+    at py.getManualIndexFileCap (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:1102:5590)
+    at py.checkIndexSizeLimits (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:1102:3321)
+    at /home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:1102:2565
+2025-10-16 00:43:50.046 [error] Error: Failed to get copilot token
+    at y9._authShowWarnings (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:949:17015)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at y9.getCopilotToken (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:949:15345)
+    at YG.getCopilotToken (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:485:25421)
+    at py.getExpandedClientSideIndexingStatus (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:1102:5892)
+    at py.getManualIndexFileCap (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:1102:5590)
+    at py.checkIndexSizeLimits (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:1102:3321)
+    at /home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:1102:2565
+2025-10-16 00:45:34.528 [error] Error: Failed to get copilot token
+    at y9._authShowWarnings (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:949:17015)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at y9.getCopilotToken (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:949:15345)
+    at YG.getCopilotToken (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:485:25421)
+    at py.getExpandedClientSideIndexingStatus (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:1102:5892)
+    at py.getManualIndexFileCap (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:1102:5590)
+    at py.checkIndexSizeLimits (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:1102:3321)
+    at /home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:1102:2565
+2025-10-16 00:48:14.782 [error] Error: Failed to get copilot token
+    at y9._authShowWarnings (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:949:17015)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at y9.getCopilotToken (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:949:15345)
+    at YG.getCopilotToken (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:485:25421)
+    at py.getExpandedClientSideIndexingStatus (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:1102:5892)
+    at py.getManualIndexFileCap (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:1102:5590)
+    at py.checkIndexSizeLimits (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:1102:3321)
+    at /home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:1102:2565
+2025-10-16 00:49:29.141 [error] Error: Failed to get copilot token
+    at y9._authShowWarnings (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:949:17015)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at y9.getCopilotToken (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:949:15345)
+    at YG.getCopilotToken (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:485:25421)
+    at py.getExpandedClientSideIndexingStatus (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:1102:5892)
+    at py.getManualIndexFileCap (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:1102:5590)
+    at py.checkIndexSizeLimits (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:1102:3321)
+    at /home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:1102:2565
+2025-10-16 00:50:24.365 [error] Error: Failed to get copilot token
+    at y9._authShowWarnings (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:949:17015)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at y9.getCopilotToken (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:949:15345)
+    at YG.getCopilotToken (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:485:25421)
+    at py.getExpandedClientSideIndexingStatus (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:1102:5892)
+    at py.getManualIndexFileCap (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:1102:5590)
+    at py.checkIndexSizeLimits (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:1102:3321)
+    at /home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:1102:2565
+2025-10-16 00:51:17.845 [error] Error: Failed to get copilot token
+    at y9._authShowWarnings (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:949:17015)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at y9.getCopilotToken (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:949:15345)
+    at YG.getCopilotToken (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:485:25421)
+    at py.getExpandedClientSideIndexingStatus (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:1102:5892)
+    at py.getManualIndexFileCap (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:1102:5590)
+    at py.checkIndexSizeLimits (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:1102:3321)
+    at /home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:1102:2565
+2025-10-16 00:52:07.340 [error] Error: Failed to get copilot token
+    at y9._authShowWarnings (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:949:17015)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at y9.getCopilotToken (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:949:15345)
+    at YG.getCopilotToken (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:485:25421)
+    at py.getExpandedClientSideIndexingStatus (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:1102:5892)
+    at py.getManualIndexFileCap (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:1102:5590)
+    at py.checkIndexSizeLimits (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:1102:3321)
+    at /home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:1102:2565
+2025-10-16 00:52:12.253 [error] Error: Failed to get copilot token
+    at y9._authShowWarnings (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:949:17015)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at y9.getCopilotToken (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:949:15345)
+    at YG.getCopilotToken (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:485:25421)
+    at py.getExpandedClientSideIndexingStatus (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:1102:5892)
+    at py.getManualIndexFileCap (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:1102:5590)
+    at py.checkIndexSizeLimits (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:1102:3321)
+    at /home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:1102:2565
+2025-10-16 00:53:12.076 [error] Error: Failed to get copilot token
+    at y9._authShowWarnings (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:949:17015)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at y9.getCopilotToken (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:949:15345)
+    at YG.getCopilotToken (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:485:25421)
+    at py.getExpandedClientSideIndexingStatus (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:1102:5892)
+    at py.getManualIndexFileCap (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:1102:5590)
+    at py.checkIndexSizeLimits (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:1102:3321)
+    at /home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:1102:2565
+2025-10-16 00:54:15.084 [error] Error: Failed to get copilot token
+    at y9._authShowWarnings (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:949:17015)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at y9.getCopilotToken (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:949:15345)
+    at YG.getCopilotToken (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:485:25421)
+    at py.getExpandedClientSideIndexingStatus (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:1102:5892)
+    at py.getManualIndexFileCap (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:1102:5590)
+    at py.checkIndexSizeLimits (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:1102:3321)
+    at /home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:1102:2565
+2025-10-16 00:55:00.681 [error] Error: Failed to get copilot token
+    at y9._authShowWarnings (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:949:17015)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at y9.getCopilotToken (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:949:15345)
+    at YG.getCopilotToken (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:485:25421)
+    at py.getExpandedClientSideIndexingStatus (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:1102:5892)
+    at py.getManualIndexFileCap (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:1102:5590)
+    at py.checkIndexSizeLimits (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:1102:3321)
+    at /home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:1102:2565
+2025-10-16 00:55:36.562 [error] Error: Failed to get copilot token
+    at y9._authShowWarnings (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:949:17015)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at y9.getCopilotToken (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:949:15345)
+    at YG.getCopilotToken (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:485:25421)
+    at py.getExpandedClientSideIndexingStatus (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:1102:5892)
+    at py.getManualIndexFileCap (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:1102:5590)
+    at py.checkIndexSizeLimits (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:1102:3321)
+    at /home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:1102:2565
+2025-10-16 00:56:20.759 [error] Error: Failed to get copilot token
+    at y9._authShowWarnings (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:949:17015)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at y9.getCopilotToken (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:949:15345)
+    at YG.getCopilotToken (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:485:25421)
+    at py.getExpandedClientSideIndexingStatus (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:1102:5892)
+    at py.getManualIndexFileCap (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:1102:5590)
+    at py.checkIndexSizeLimits (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:1102:3321)
+    at /home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:1102:2565
+2025-10-16 00:58:08.452 [error] Error: Failed to get copilot token
+    at y9._authShowWarnings (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:949:17015)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at y9.getCopilotToken (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:949:15345)
+    at YG.getCopilotToken (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:485:25421)
+    at py.getExpandedClientSideIndexingStatus (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:1102:5892)
+    at py.getManualIndexFileCap (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:1102:5590)
+    at py.checkIndexSizeLimits (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:1102:3321)
+    at /home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:1102:2565
+2025-10-16 00:58:16.655 [error] Error: Failed to get copilot token
+    at y9._authShowWarnings (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:949:17015)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at y9.getCopilotToken (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:949:15345)
+    at YG.getCopilotToken (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:485:25421)
+    at py.getExpandedClientSideIndexingStatus (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:1102:5892)
+    at py.getManualIndexFileCap (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:1102:5590)
+    at py.checkIndexSizeLimits (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:1102:3321)
+    at /home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:1102:2565
+2025-10-16 00:58:22.983 [error] Error: Failed to get copilot token
+    at y9._authShowWarnings (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:949:17015)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at y9.getCopilotToken (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:949:15345)
+    at YG.getCopilotToken (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:485:25421)
+    at py.getExpandedClientSideIndexingStatus (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:1102:5892)
+    at py.getManualIndexFileCap (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:1102:5590)
+    at py.checkIndexSizeLimits (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:1102:3321)
+    at /home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:1102:2565
+2025-10-16 00:58:26.971 [error] Error: Failed to get copilot token
+    at y9._authShowWarnings (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:949:17015)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at y9.getCopilotToken (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:949:15345)
+    at YG.getCopilotToken (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:485:25421)
+    at py.getExpandedClientSideIndexingStatus (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:1102:5892)
+    at py.getManualIndexFileCap (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:1102:5590)
+    at py.checkIndexSizeLimits (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:1102:3321)
+    at /home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:1102:2565
+2025-10-16 00:58:31.031 [error] Error: Failed to get copilot token
+    at y9._authShowWarnings (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:949:17015)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at y9.getCopilotToken (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:949:15345)
+    at YG.getCopilotToken (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:485:25421)
+    at py.getExpandedClientSideIndexingStatus (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:1102:5892)
+    at py.getManualIndexFileCap (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:1102:5590)
+    at py.checkIndexSizeLimits (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:1102:3321)
+    at /home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:1102:2565
+2025-10-16 00:58:45.275 [error] Error: Failed to get copilot token
+    at y9._authShowWarnings (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:949:17015)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at y9.getCopilotToken (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:949:15345)
+    at YG.getCopilotToken (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:485:25421)
+    at py.getExpandedClientSideIndexingStatus (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:1102:5892)
+    at py.getManualIndexFileCap (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:1102:5590)
+    at py.checkIndexSizeLimits (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:1102:3321)
+    at /home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:1102:2565
+2025-10-16 00:59:13.237 [error] Error: Failed to get copilot token
+    at y9._authShowWarnings (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:949:17015)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at y9.getCopilotToken (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:949:15345)
+    at YG.getCopilotToken (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:485:25421)
+    at py.getExpandedClientSideIndexingStatus (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:1102:5892)
+    at py.getManualIndexFileCap (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:1102:5590)
+    at py.checkIndexSizeLimits (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:1102:3321)
+    at /home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:1102:2565
+2025-10-16 00:59:18.908 [error] Error: Failed to get copilot token
+    at y9._authShowWarnings (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:949:17015)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at y9.getCopilotToken (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:949:15345)
+    at YG.getCopilotToken (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:485:25421)
+    at py.getExpandedClientSideIndexingStatus (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:1102:5892)
+    at py.getManualIndexFileCap (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:1102:5590)
+    at py.checkIndexSizeLimits (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:1102:3321)
+    at /home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:1102:2565
+2025-10-16 00:59:26.888 [error] Error: Failed to get copilot token
+    at y9._authShowWarnings (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:949:17015)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at y9.getCopilotToken (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:949:15345)
+    at YG.getCopilotToken (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:485:25421)
+    at py.getExpandedClientSideIndexingStatus (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:1102:5892)
+    at py.getManualIndexFileCap (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:1102:5590)
+    at py.checkIndexSizeLimits (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:1102:3321)
+    at /home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:1102:2565
+2025-10-16 01:00:01.506 [error] Error: Failed to get copilot token
+    at y9._authShowWarnings (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:949:17015)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at y9.getCopilotToken (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:949:15345)
+    at YG.getCopilotToken (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:485:25421)
+    at py.getExpandedClientSideIndexingStatus (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:1102:5892)
+    at py.getManualIndexFileCap (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:1102:5590)
+    at py.checkIndexSizeLimits (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:1102:3321)
+    at /home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:1102:2565
+2025-10-16 01:00:05.430 [error] Error: Failed to get copilot token
+    at y9._authShowWarnings (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:949:17015)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at y9.getCopilotToken (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:949:15345)
+    at YG.getCopilotToken (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:485:25421)
+    at py.getExpandedClientSideIndexingStatus (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:1102:5892)
+    at py.getManualIndexFileCap (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:1102:5590)
+    at py.checkIndexSizeLimits (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:1102:3321)
+    at /home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:1102:2565
+2025-10-16 01:00:19.196 [error] Error: Failed to get copilot token
+    at y9._authShowWarnings (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:949:17015)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at y9.getCopilotToken (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:949:15345)
+    at YG.getCopilotToken (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:485:25421)
+    at py.getExpandedClientSideIndexingStatus (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:1102:5892)
+    at py.getManualIndexFileCap (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:1102:5590)
+    at py.checkIndexSizeLimits (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:1102:3321)
+    at /home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:1102:2565
+2025-10-16 01:00:22.812 [error] Error: Failed to get copilot token
+    at y9._authShowWarnings (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:949:17015)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at y9.getCopilotToken (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:949:15345)
+    at YG.getCopilotToken (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:485:25421)
+    at py.getExpandedClientSideIndexingStatus (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:1102:5892)
+    at py.getManualIndexFileCap (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:1102:5590)
+    at py.checkIndexSizeLimits (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:1102:3321)
+    at /home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:1102:2565
+2025-10-16 01:00:35.342 [error] Error: Failed to get copilot token
+    at y9._authShowWarnings (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:949:17015)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at y9.getCopilotToken (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:949:15345)
+    at YG.getCopilotToken (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:485:25421)
+    at py.getExpandedClientSideIndexingStatus (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:1102:5892)
+    at py.getManualIndexFileCap (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:1102:5590)
+    at py.checkIndexSizeLimits (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:1102:3321)
+    at /home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:1102:2565
+2025-10-16 01:01:10.639 [error] Error: Failed to get copilot token
+    at y9._authShowWarnings (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:949:17015)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at y9.getCopilotToken (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:949:15345)
+    at YG.getCopilotToken (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:485:25421)
+    at py.getExpandedClientSideIndexingStatus (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:1102:5892)
+    at py.getManualIndexFileCap (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:1102:5590)
+    at py.checkIndexSizeLimits (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:1102:3321)
+    at /home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:1102:2565
+2025-10-16 01:01:13.244 [error] Error: Failed to get copilot token
+    at y9._authShowWarnings (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:949:17015)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at y9.getCopilotToken (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:949:15345)
+    at YG.getCopilotToken (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:485:25421)
+    at py.getExpandedClientSideIndexingStatus (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:1102:5892)
+    at py.getManualIndexFileCap (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:1102:5590)
+    at py.checkIndexSizeLimits (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:1102:3321)
+    at /home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:1102:2565
+2025-10-16 01:01:17.898 [error] Error: Failed to get copilot token
+    at y9._authShowWarnings (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:949:17015)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at y9.getCopilotToken (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:949:15345)
+    at YG.getCopilotToken (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:485:25421)
+    at py.getExpandedClientSideIndexingStatus (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:1102:5892)
+    at py.getManualIndexFileCap (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:1102:5590)
+    at py.checkIndexSizeLimits (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:1102:3321)
+    at /home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:1102:2565
+2025-10-16 01:01:20.468 [error] Error: Failed to get copilot token
+    at y9._authShowWarnings (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:949:17015)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at y9.getCopilotToken (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:949:15345)
+    at YG.getCopilotToken (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:485:25421)
+    at py.getExpandedClientSideIndexingStatus (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:1102:5892)
+    at py.getManualIndexFileCap (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:1102:5590)
+    at py.checkIndexSizeLimits (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:1102:3321)
+    at /home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:1102:2565
+2025-10-16 01:01:24.842 [error] Error: Failed to get copilot token
+    at y9._authShowWarnings (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:949:17015)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at y9.getCopilotToken (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:949:15345)
+    at YG.getCopilotToken (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:485:25421)
+    at py.getExpandedClientSideIndexingStatus (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:1102:5892)
+    at py.getManualIndexFileCap (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:1102:5590)
+    at py.checkIndexSizeLimits (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:1102:3321)
+    at /home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:1102:2565
+2025-10-16 01:01:31.354 [error] Error: Failed to get copilot token
+    at y9._authShowWarnings (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:949:17015)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at y9.getCopilotToken (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:949:15345)
+    at YG.getCopilotToken (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:485:25421)
+    at py.getExpandedClientSideIndexingStatus (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:1102:5892)
+    at py.getManualIndexFileCap (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:1102:5590)
+    at py.checkIndexSizeLimits (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:1102:3321)
+    at /home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:1102:2565
+2025-10-16 01:01:40.310 [error] Error: Failed to get copilot token
+    at y9._authShowWarnings (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:949:17015)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at y9.getCopilotToken (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:949:15345)
+    at YG.getCopilotToken (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:485:25421)
+    at py.getExpandedClientSideIndexingStatus (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:1102:5892)
+    at py.getManualIndexFileCap (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:1102:5590)
+    at py.checkIndexSizeLimits (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:1102:3321)
+    at /home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:1102:2565
+2025-10-16 01:01:48.722 [error] Error: Failed to get copilot token
+    at y9._authShowWarnings (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:949:17015)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at y9.getCopilotToken (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:949:15345)
+    at YG.getCopilotToken (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:485:25421)
+    at py.getExpandedClientSideIndexingStatus (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:1102:5892)
+    at py.getManualIndexFileCap (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:1102:5590)
+    at py.checkIndexSizeLimits (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:1102:3321)
+    at /home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:1102:2565
+2025-10-16 01:01:58.369 [error] Error: Failed to get copilot token
+    at y9._authShowWarnings (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:949:17015)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at y9.getCopilotToken (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:949:15345)
+    at YG.getCopilotToken (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:485:25421)
+    at py.getExpandedClientSideIndexingStatus (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:1102:5892)
+    at py.getManualIndexFileCap (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:1102:5590)
+    at py.checkIndexSizeLimits (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:1102:3321)
+    at /home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:1102:2565
+2025-10-16 01:02:03.809 [error] Error: Failed to get copilot token
+    at y9._authShowWarnings (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:949:17015)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at y9.getCopilotToken (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:949:15345)
+    at YG.getCopilotToken (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:485:25421)
+    at py.getExpandedClientSideIndexingStatus (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:1102:5892)
+    at py.getManualIndexFileCap (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:1102:5590)
+    at py.checkIndexSizeLimits (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:1102:3321)
+    at /home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:1102:2565
+2025-10-16 01:02:14.702 [error] Error: Failed to get copilot token
+    at y9._authShowWarnings (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:949:17015)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at y9.getCopilotToken (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:949:15345)
+    at YG.getCopilotToken (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:485:25421)
+    at py.getExpandedClientSideIndexingStatus (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:1102:5892)
+    at py.getManualIndexFileCap (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:1102:5590)
+    at py.checkIndexSizeLimits (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:1102:3321)
+    at /home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:1102:2565
+2025-10-16 01:02:17.465 [error] Error: Failed to get copilot token
+    at y9._authShowWarnings (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:949:17015)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at y9.getCopilotToken (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:949:15345)
+    at YG.getCopilotToken (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:485:25421)
+    at py.getExpandedClientSideIndexingStatus (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:1102:5892)
+    at py.getManualIndexFileCap (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:1102:5590)
+    at py.checkIndexSizeLimits (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:1102:3321)
+    at /home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:1102:2565
+2025-10-16 01:02:23.957 [error] Error: Failed to get copilot token
+    at y9._authShowWarnings (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:949:17015)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at y9.getCopilotToken (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:949:15345)
+    at YG.getCopilotToken (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:485:25421)
+    at py.getExpandedClientSideIndexingStatus (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:1102:5892)
+    at py.getManualIndexFileCap (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:1102:5590)
+    at py.checkIndexSizeLimits (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:1102:3321)
+    at /home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:1102:2565
+2025-10-16 01:02:29.541 [error] Error: Failed to get copilot token
+    at y9._authShowWarnings (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:949:17015)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at y9.getCopilotToken (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:949:15345)
+    at YG.getCopilotToken (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:485:25421)
+    at py.getExpandedClientSideIndexingStatus (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:1102:5892)
+    at py.getManualIndexFileCap (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:1102:5590)
+    at py.checkIndexSizeLimits (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:1102:3321)
+    at /home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:1102:2565
+2025-10-16 01:02:35.204 [error] Error: Failed to get copilot token
+    at y9._authShowWarnings (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:949:17015)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at y9.getCopilotToken (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:949:15345)
+    at YG.getCopilotToken (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:485:25421)
+    at py.getExpandedClientSideIndexingStatus (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:1102:5892)
+    at py.getManualIndexFileCap (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:1102:5590)
+    at py.checkIndexSizeLimits (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:1102:3321)
+    at /home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:1102:2565
+2025-10-16 01:06:47.713 [info] Extension host terminating: renderer closed the MessagePort
+2025-10-16 01:06:48.039 [info] Extension host with pid 8358 exiting with code 0

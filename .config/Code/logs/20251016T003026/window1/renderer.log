@@ -1,0 +1,125 @@
+2025-10-16 00:30:30.655 [info] Started local extension host with pid 8358.
+2025-10-16 00:30:40.516 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2025-10-16 00:30:41.001 [info] [perf] Render performance baseline is 834ms
+2025-10-16 00:30:43.417 [info] Extension host (LocalProcess pid: 8358) is unresponsive.
+2025-10-16 00:30:44.876 [info] UNRESPONSIVE extension host: starting to profile NOW
+2025-10-16 00:30:49.758 [error] [Extension Host] (node:8358) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+(Use `exe --trace-warnings ...` to show where the warning was created)
+2025-10-16 00:30:50.029 [info] Extension host (LocalProcess pid: 8358) is responsive.
+2025-10-16 00:30:50.030 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2025-10-16 00:30:50.699 [error] Failed to fetch token entitlements Server returned 403
+2025-10-16 00:30:50.711 [warning] UNRESPONSIVE extension host: 'github.copilot' took 43.159006457096815% of 2167.075ms, saved PROFILE here: 'file:///tmp/exthost-4d53c2.cpuprofile'
+2025-10-16 00:30:50.996 [error] [Extension Host] Failed to load MSAL binary: Error: Cannot find module './msal-node-runtime'
+Require stack:
+- /usr/share/code/resources/app/extensions/microsoft-authentication/dist/extension.js
+- /usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1372:15)
+    at Module.n._resolveFilename (node:electron/js2c/utility_init:2:16249)
+    at Module.t._resolveFilename (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:209:22931)
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1028:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1033:22)
+    at Module._load (node:internal/modules/cjs/loader:1182:37)
+    at Module.c._load (node:electron/js2c/node_init:2:17993)
+    at Module.e._load (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:391:5984)
+    at Module.t._load (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:209:22649)
+    at Module.r._load (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:201:25551)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:242:24)
+    at Module.require (node:internal/modules/cjs/loader:1452:12)
+    at Module.require (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:81:36096)
+    at require (node:internal/modules/helpers:135:16)
+    at Object.7247 (/usr/share/code/resources/app/extensions/microsoft-authentication/dist/extension.js:2:231600)
+    at n (/usr/share/code/resources/app/extensions/microsoft-authentication/dist/extension.js:2:559324)
+    at Module.9020 (/usr/share/code/resources/app/extensions/microsoft-authentication/dist/extension.js:2:526968)
+    at n (/usr/share/code/resources/app/extensions/microsoft-authentication/dist/extension.js:2:559324)
+    at Object.6244 (/usr/share/code/resources/app/extensions/microsoft-authentication/dist/extension.js:2:215773)
+    at n (/usr/share/code/resources/app/extensions/microsoft-authentication/dist/extension.js:2:559324)
+    at Object.3226 (/usr/share/code/resources/app/extensions/microsoft-authentication/dist/extension.js:2:129004)
+    at n (/usr/share/code/resources/app/extensions/microsoft-authentication/dist/extension.js:2:559324)
+    at Object.2583 (/usr/share/code/resources/app/extensions/microsoft-authentication/dist/extension.js:2:105051)
+    at n (/usr/share/code/resources/app/extensions/microsoft-authentication/dist/extension.js:2:559324)
+    at Object.8428 (/usr/share/code/resources/app/extensions/microsoft-authentication/dist/extension.js:2:452019)
+    at n (/usr/share/code/resources/app/extensions/microsoft-authentication/dist/extension.js:2:559324)
+    at Object.5256 (/usr/share/code/resources/app/extensions/microsoft-authentication/dist/extension.js:2:172891)
+    at n (/usr/share/code/resources/app/extensions/microsoft-authentication/dist/extension.js:2:559324)
+    at /usr/share/code/resources/app/extensions/microsoft-authentication/dist/extension.js:2:559691
+    at Object.<anonymous> (/usr/share/code/resources/app/extensions/microsoft-authentication/dist/extension.js:2:559798)
+    at Module._compile (node:internal/modules/cjs/loader:1696:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1829:10)
+    at Module.load (node:internal/modules/cjs/loader:1430:32)
+    at Module._load (node:internal/modules/cjs/loader:1253:12)
+    at Module.c._load (node:electron/js2c/node_init:2:17993)
+    at Module.e._load (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:391:5984)
+    at Module.t._load (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:209:22649)
+    at Module.r._load (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:201:25551)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:242:24)
+    at Module.require (node:internal/modules/cjs/loader:1452:12)
+    at Module.require (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:81:36096)
+    at require (node:internal/modules/helpers:135:16)
+    at aJ.Cb (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:240:1253)
+2025-10-16 00:30:54.250 [warning] Failed to update in-progress status for chat session type 'claude-code': Can not find provider for claude-code
+2025-10-16 00:30:58.302 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-16 00:35:16.714 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-16 00:36:19.154 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-16 00:36:22.847 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-16 00:36:28.938 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-16 00:36:41.473 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-16 00:36:49.408 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-16 00:36:55.955 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-16 00:37:14.881 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-16 00:37:19.866 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-16 00:41:22.913 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-16 00:41:43.281 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-16 00:42:49.459 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-16 00:43:50.050 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-16 00:45:34.534 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-16 00:48:14.790 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-16 00:49:29.146 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-16 00:50:24.372 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-16 00:51:17.854 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-16 00:52:07.346 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-16 00:52:12.259 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-16 00:53:12.081 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-16 00:54:15.090 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-16 00:55:00.687 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-16 00:55:36.567 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-16 00:56:20.765 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-16 00:58:08.460 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-16 00:58:16.659 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-16 00:58:22.989 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-16 00:58:26.978 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-16 00:58:31.038 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-16 00:58:45.281 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-16 00:59:13.242 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-16 00:59:18.912 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-16 00:59:26.903 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-16 01:00:01.510 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-16 01:00:05.437 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-16 01:00:19.206 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-16 01:00:22.817 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-16 01:00:35.377 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-16 01:01:10.654 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-16 01:01:13.253 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-16 01:01:17.908 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-16 01:01:20.477 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-16 01:01:24.846 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-16 01:01:31.359 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-16 01:01:40.319 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-16 01:01:48.728 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-16 01:01:58.378 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-16 01:02:03.820 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-16 01:02:14.707 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-16 01:02:17.479 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-16 01:02:23.966 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-16 01:02:29.545 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-16 01:02:35.214 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-16 01:06:48.119 [error] Canceled: Canceled
+    at QC (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:7:1282)
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3718:37249
+    at Array.forEach (<anonymous>)
+    at ALt.dispose (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3718:37189)
+    at sAe.dispose (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3718:48866)
+    at Ppn.dispose (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3725:7731)
+    at Npn.stopAllInReverse (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3725:7033)
+    at async gxt.tb (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3724:15899)

@@ -1,0 +1,120 @@
+2025-10-17 23:18:06.155 [warning] Creation of workbench contribution 'workbench.contrib.preferencesActions' took 29ms.
+2025-10-17 23:18:07.649 [info] Started local extension host with pid 2666.
+2025-10-17 23:18:11.332 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2025-10-17 23:18:15.970 [error] Failed to fetch token entitlements Server returned 403
+2025-10-17 23:18:17.086 [info] [perf] Render performance baseline is 787ms
+2025-10-17 23:18:19.612 [info] Extension host (LocalProcess pid: 2666) is unresponsive.
+2025-10-17 23:18:20.965 [info] UNRESPONSIVE extension host: starting to profile NOW
+2025-10-17 23:18:25.615 [error] [Extension Host] (node:2666) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+(Use `exe --trace-warnings ...` to show where the warning was created)
+2025-10-17 23:18:25.823 [info] Extension host (LocalProcess pid: 2666) is responsive.
+2025-10-17 23:18:25.825 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2025-10-17 23:18:26.920 [error] [Extension Host] Failed to load MSAL binary: Error: Cannot find module './msal-node-runtime'
+Require stack:
+- /usr/share/code/resources/app/extensions/microsoft-authentication/dist/extension.js
+- /usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1372:15)
+    at Module.n._resolveFilename (node:electron/js2c/utility_init:2:16249)
+    at Module.t._resolveFilename (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:209:22931)
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1028:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1033:22)
+    at Module._load (node:internal/modules/cjs/loader:1182:37)
+    at Module.c._load (node:electron/js2c/node_init:2:17993)
+    at Module.e._load (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:391:5984)
+    at Module.t._load (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:209:22649)
+    at Module.r._load (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:201:25551)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:242:24)
+    at Module.require (node:internal/modules/cjs/loader:1452:12)
+    at Module.require (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:81:36096)
+    at require (node:internal/modules/helpers:135:16)
+    at Object.7247 (/usr/share/code/resources/app/extensions/microsoft-authentication/dist/extension.js:2:231600)
+    at n (/usr/share/code/resources/app/extensions/microsoft-authentication/dist/extension.js:2:559324)
+    at Module.9020 (/usr/share/code/resources/app/extensions/microsoft-authentication/dist/extension.js:2:526968)
+    at n (/usr/share/code/resources/app/extensions/microsoft-authentication/dist/extension.js:2:559324)
+    at Object.6244 (/usr/share/code/resources/app/extensions/microsoft-authentication/dist/extension.js:2:215773)
+    at n (/usr/share/code/resources/app/extensions/microsoft-authentication/dist/extension.js:2:559324)
+    at Object.3226 (/usr/share/code/resources/app/extensions/microsoft-authentication/dist/extension.js:2:129004)
+    at n (/usr/share/code/resources/app/extensions/microsoft-authentication/dist/extension.js:2:559324)
+    at Object.2583 (/usr/share/code/resources/app/extensions/microsoft-authentication/dist/extension.js:2:105051)
+    at n (/usr/share/code/resources/app/extensions/microsoft-authentication/dist/extension.js:2:559324)
+    at Object.8428 (/usr/share/code/resources/app/extensions/microsoft-authentication/dist/extension.js:2:452019)
+    at n (/usr/share/code/resources/app/extensions/microsoft-authentication/dist/extension.js:2:559324)
+    at Object.5256 (/usr/share/code/resources/app/extensions/microsoft-authentication/dist/extension.js:2:172891)
+    at n (/usr/share/code/resources/app/extensions/microsoft-authentication/dist/extension.js:2:559324)
+    at /usr/share/code/resources/app/extensions/microsoft-authentication/dist/extension.js:2:559691
+    at Object.<anonymous> (/usr/share/code/resources/app/extensions/microsoft-authentication/dist/extension.js:2:559798)
+    at Module._compile (node:internal/modules/cjs/loader:1696:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1829:10)
+    at Module.load (node:internal/modules/cjs/loader:1430:32)
+    at Module._load (node:internal/modules/cjs/loader:1253:12)
+    at Module.c._load (node:electron/js2c/node_init:2:17993)
+    at Module.e._load (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:391:5984)
+    at Module.t._load (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:209:22649)
+    at Module.r._load (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:201:25551)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:242:24)
+    at Module.require (node:internal/modules/cjs/loader:1452:12)
+    at Module.require (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:81:36096)
+    at require (node:internal/modules/helpers:135:16)
+    at aJ.Cb (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:240:1253)
+2025-10-17 23:18:27.781 [warning] UNRESPONSIVE extension host: 'github.copilot' took 39.36416227799727% of 1912.596ms, saved PROFILE here: 'file:///tmp/exthost-d8c510.cpuprofile'
+2025-10-17 23:18:31.019 [warning] Failed to update in-progress status for chat session type 'claude-code': Can not find provider for claude-code
+2025-10-17 23:18:34.450 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-17 23:19:02.561 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-17 23:19:33.440 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-17 23:19:56.651 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-17 23:21:20.460 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-17 23:22:37.961 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-17 23:23:27.030 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-17 23:23:30.981 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-17 23:23:34.916 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-17 23:23:55.878 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-17 23:24:03.480 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-17 23:24:10.537 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-17 23:24:19.563 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-17 23:27:43.800 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-17 23:28:14.766 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-17 23:28:40.645 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-17 23:29:07.896 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-17 23:32:57.588 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-17 23:33:00.371 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-17 23:34:09.286 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-17 23:45:49.828 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-17 23:45:54.479 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-17 23:46:15.872 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-17 23:51:01.415 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-17 23:51:07.148 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-17 23:56:03.844 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-17 23:56:12.246 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-17 23:56:24.288 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-17 23:56:32.400 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-17 23:56:39.660 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-17 23:57:00.470 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-17 23:57:08.280 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-17 23:57:18.773 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-18 00:00:58.250 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-18 00:01:05.289 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-18 00:01:13.061 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-18 00:02:32.761 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-18 00:02:37.511 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-18 00:02:45.270 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-18 00:02:54.894 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-18 00:02:58.221 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-18 00:04:26.453 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-18 00:04:29.370 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-18 00:13:17.575 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-18 00:13:29.475 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-18 00:13:38.833 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-18 00:13:43.040 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-18 00:14:42.974 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-18 00:19:26.636 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-18 00:22:20.889 [info] Extension host (LocalProcess pid: 2666) is unresponsive.
+2025-10-18 00:22:20.930 [info] Extension host (LocalProcess pid: 2666) is responsive.
+2025-10-18 00:22:20.932 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2025-10-18 00:22:21.606 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-18 00:22:22.924 [info] UNRESPONSIVE extension host: starting to profile NOW
+2025-10-18 00:23:50.058 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-18 00:23:52.639 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-18 00:27:44.099 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-18 00:27:47.497 [error] An unknown error occurred. Please consult the log for more details.

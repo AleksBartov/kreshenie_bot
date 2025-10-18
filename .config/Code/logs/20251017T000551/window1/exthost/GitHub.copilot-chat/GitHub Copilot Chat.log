@@ -1,0 +1,123 @@
+2025-10-17 00:06:35.429 [info] [GitExtensionServiceImpl] Initializing Git extension service.
+2025-10-17 00:06:35.429 [info] Using the Electron fetcher.
+2025-10-17 00:06:35.429 [info] [GitExtensionServiceImpl] Successfully activated the vscode.git extension.
+2025-10-17 00:06:35.429 [info] [GitExtensionServiceImpl] Enablement state of the vscode.git extension: true.
+2025-10-17 00:06:35.429 [info] [GitExtensionServiceImpl] Successfully registered Git commit message provider.
+2025-10-17 00:06:38.332 [info] Logged in as AleksBartov
+2025-10-17 00:06:38.528 [info] GithubAvailableEmbeddingTypesManager: Got embeddings. Primary: metis-1024-I16-Binary. Deprecated: 
+2025-10-17 00:06:38.558 [info] GithubAvailableEmbeddingTypesManager: Got embeddings. Primary: metis-1024-I16-Binary. Deprecated: 
+2025-10-17 00:06:38.558 [info] WorkspaceChunkSearchService: using embedding type metis-1024-I16-Binary
+2025-10-17 00:06:38.663 [info] FetcherService: electron-fetch succeeded
+2025-10-17 00:06:38.681 [info] FetcherService: electron-fetch failed with status: 403 
+2025-10-17 00:06:39.337 [info] FetcherService: node-fetch failed with status: 403 
+2025-10-17 00:06:39.706 [info] FetcherService: node-http failed with status: 403 Forbidden
+2025-10-17 00:06:39.711 [warning] Invalid copilot token: missing token: 403 
+2025-10-17 00:06:39.726 [error] Error: Failed to get copilot token
+    at y9._authShowWarnings (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:949:17015)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at y9.getCopilotToken (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:949:15345)
+    at YG.getCopilotToken (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:485:25421)
+    at tT.waitForChatEnabled (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:485:27862)
+    at tT.run (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:485:27746)
+    at P3.askToUpgradeAuthPermissions (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:485:27404): Failed to get copilot token
+2025-10-17 00:06:39.726 [error] GitHub Copilot could not connect to server. Extension activation failed: "Failed to get copilot token"
+2025-10-17 00:06:39.726 [warning] [LanguageModelAccess] LanguageModel/Embeddings are not available without auth token
+2025-10-17 00:06:39.726 [error] Error: Failed to get copilot token
+    at y9._authShowWarnings (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:949:17015)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at y9.getCopilotToken (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:949:15345)
+    at YG.getCopilotToken (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:485:25421)
+    at V4._getAuthSession (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:618:4397)
+    at n (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:618:3843)
+    at V4._registerEmbeddings (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:618:4359)
+    at async Promise.all (index 1)
+    at async Promise.allSettled (index 1)
+    at p1.waitForActivationBlockers (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:462:1233)
+    at /home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:462:1992
+    at rut (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:462:1860)
+    at _b.n (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:112:13382)
+    at _b.m (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:112:13345)
+    at _b.l (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:112:12801)
+2025-10-17 00:06:39.728 [info] activationBlocker from 'languageModelAccess' took for 5098ms
+2025-10-17 00:10:34.362 [info] [GitExtensionServiceImpl] Initializing Git extension service.
+2025-10-17 00:10:34.366 [info] Using the Electron fetcher.
+2025-10-17 00:10:34.366 [info] [GitExtensionServiceImpl] Successfully activated the vscode.git extension.
+2025-10-17 00:10:34.366 [info] [GitExtensionServiceImpl] Enablement state of the vscode.git extension: true.
+2025-10-17 00:10:34.366 [info] [GitExtensionServiceImpl] Successfully registered Git commit message provider.
+2025-10-17 00:10:37.130 [info] Logged in as AleksBartov
+2025-10-17 00:10:37.434 [info] GithubAvailableEmbeddingTypesManager: Got embeddings. Primary: metis-1024-I16-Binary. Deprecated: 
+2025-10-17 00:10:37.446 [info] GithubAvailableEmbeddingTypesManager: Got embeddings. Primary: metis-1024-I16-Binary. Deprecated: 
+2025-10-17 00:10:37.446 [info] WorkspaceChunkSearchService: using embedding type metis-1024-I16-Binary
+2025-10-17 00:10:37.513 [info] FetcherService: electron-fetch failed with status: 403 
+2025-10-17 00:10:37.667 [info] FetcherService: electron-fetch succeeded
+2025-10-17 00:10:37.966 [info] FetcherService: node-fetch failed with status: 403 
+2025-10-17 00:10:38.400 [info] FetcherService: node-http failed with status: 403 Forbidden
+2025-10-17 00:10:38.402 [warning] Invalid copilot token: missing token: 403 
+2025-10-17 00:10:38.415 [error] Error: Failed to get copilot token
+    at y9._authShowWarnings (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:949:17015)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at y9.getCopilotToken (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:949:15345)
+    at YG.getCopilotToken (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:485:25421)
+    at tT.waitForChatEnabled (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:485:27862)
+    at tT.run (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:485:27746)
+    at P3.askToUpgradeAuthPermissions (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:485:27404): Failed to get copilot token
+2025-10-17 00:10:38.415 [error] GitHub Copilot could not connect to server. Extension activation failed: "Failed to get copilot token"
+2025-10-17 00:10:38.415 [warning] [LanguageModelAccess] LanguageModel/Embeddings are not available without auth token
+2025-10-17 00:10:38.415 [error] Error: Failed to get copilot token
+    at y9._authShowWarnings (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:949:17015)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at y9.getCopilotToken (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:949:15345)
+    at YG.getCopilotToken (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:485:25421)
+    at V4._getAuthSession (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:618:4397)
+    at n (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:618:3843)
+    at V4._registerEmbeddings (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:618:4359)
+    at async Promise.all (index 1)
+    at async Promise.allSettled (index 1)
+    at p1.waitForActivationBlockers (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:462:1233)
+    at /home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:462:1992
+    at rut (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:462:1860)
+    at _b.n (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:112:13382)
+    at _b.m (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:112:13345)
+    at _b.l (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:112:12801)
+2025-10-17 00:10:38.417 [info] activationBlocker from 'languageModelAccess' took for 1978ms
+2025-10-17 00:11:23.716 [info] [GitExtensionServiceImpl] Initializing Git extension service.
+2025-10-17 00:11:23.716 [info] Using the Electron fetcher.
+2025-10-17 00:11:23.716 [info] [GitExtensionServiceImpl] Successfully activated the vscode.git extension.
+2025-10-17 00:11:23.716 [info] [GitExtensionServiceImpl] Enablement state of the vscode.git extension: true.
+2025-10-17 00:11:23.716 [info] [GitExtensionServiceImpl] Successfully registered Git commit message provider.
+2025-10-17 00:11:26.929 [info] GithubAvailableEmbeddingTypesManager: Got embeddings. Primary: metis-1024-I16-Binary. Deprecated: 
+2025-10-17 00:11:26.968 [info] GithubAvailableEmbeddingTypesManager: Got embeddings. Primary: metis-1024-I16-Binary. Deprecated: 
+2025-10-17 00:11:26.968 [info] WorkspaceChunkSearchService: using embedding type metis-1024-I16-Binary
+2025-10-17 00:11:28.226 [info] Logged in as AleksBartov
+2025-10-17 00:11:28.541 [info] FetcherService: electron-fetch succeeded
+2025-10-17 00:11:28.546 [info] FetcherService: electron-fetch failed with status: 403 
+2025-10-17 00:11:29.213 [info] FetcherService: node-fetch failed with status: 403 
+2025-10-17 00:11:29.627 [info] FetcherService: node-http failed with status: 403 Forbidden
+2025-10-17 00:11:29.630 [warning] Invalid copilot token: missing token: 403 
+2025-10-17 00:11:29.646 [error] Error: Failed to get copilot token
+    at y9._authShowWarnings (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:949:17015)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at y9.getCopilotToken (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:949:15345)
+    at YG.getCopilotToken (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:485:25421)
+    at tT.waitForChatEnabled (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:485:27862)
+    at tT.run (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:485:27746)
+    at P3.askToUpgradeAuthPermissions (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:485:27404): Failed to get copilot token
+2025-10-17 00:11:29.646 [error] GitHub Copilot could not connect to server. Extension activation failed: "Failed to get copilot token"
+2025-10-17 00:11:29.646 [warning] [LanguageModelAccess] LanguageModel/Embeddings are not available without auth token
+2025-10-17 00:11:29.646 [error] Error: Failed to get copilot token
+    at y9._authShowWarnings (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:949:17015)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at y9.getCopilotToken (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:949:15345)
+    at YG.getCopilotToken (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:485:25421)
+    at V4._getAuthSession (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:618:4397)
+    at n (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:618:3843)
+    at V4._registerEmbeddings (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:618:4359)
+    at async Promise.all (index 1)
+    at async Promise.allSettled (index 1)
+    at p1.waitForActivationBlockers (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:462:1233)
+    at /home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:462:1992
+    at rut (/home/aleksandr/.vscode/extensions/github.copilot-chat-0.31.5/dist/extension.js:462:1860)
+    at _b.n (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:112:13382)
+    at _b.m (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:112:13345)
+    at _b.l (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:112:12801)
+2025-10-17 00:11:29.648 [info] activationBlocker from 'languageModelAccess' took for 3915ms
